@@ -23,10 +23,10 @@ onMounted(() => {
 
 # 簡爾廷 <span class="text-2xl text-gray-400">David, Jian</span>
 
-<div class="text-xl mt-2">前端工程師 ・ 9 年以上開發經驗</div>
+<div class="text-xl mt-2">前端工程師・9 年以上開發經驗</div>
 
 <div v-if="companyName || jobTitle" class="mt-6 text-lg">
-應徵 <span class="text-blue-500 font-bold">{{ companyName || '【公司名稱】' }}</span> <span class="text-green-500 font-bold">{{ jobTitle || '【職缺名稱】' }}</span>
+應徵 <span v-if="companyName" class="text-blue-500 font-bold">{{ companyName || '【公司名稱】' }}</span> <span v-if="jobTitle" class="text-green-500 font-bold">{{ jobTitle || '【職缺名稱】' }}</span>
 </div>
 
 
@@ -85,6 +85,7 @@ onMounted(() => {
 - **語言**：TypeScript / JavaScript
 - **狀態管理**：Pinia / Vuex
 - **樣式**：TailwindCSS / SASS
+- **UI框架**: ElementUI / Vuetify / VantUI / NuxtUI
 - **建構工具**：Vite / VueCli / Parcel.js
 - **國際化**：VueI18n  
 - **其他**：GraphQL / LIFF
