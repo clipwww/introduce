@@ -1,9 +1,7 @@
 ---
 theme: seriph
 title: 簡爾廷 - 前端工程師
-info: |
-  面試自我介紹簡報
-  擁有 9 年以上網站與 Web 應用程式開發經驗
+info: 面試自我介紹簡報
 transition: slide-left
 mdc: true
 ---
