@@ -1,0 +1,19 @@
+{
+  "name": "introduce",
+  "version": "1.0.0",
+  "description": "面試自我介紹簡報",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "keywords": [],
+  "author": "簡爾廷",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "@slidev/cli": "^52.11.5",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}
