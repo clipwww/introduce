@@ -145,7 +145,7 @@ onMounted(() => {
 
 ---
 
-### FunNow - Web Front-End Engineer（2022/03 - 2023/02）
+### FunNow - Frontend Engineer（2022/03 - 2023/02）
 
 **專案遷移與優化**
 - 主導 vue/cli → Vite 遷移，**啟動速度從 30-60 秒降至 1-2 秒**
