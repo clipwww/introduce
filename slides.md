@@ -36,8 +36,9 @@ onMounted(() => {
 </div>
 
 <!--
-大家好，我是簡爾廷，是一位有 9 年以上經驗的前端工程師
+大家好，我是簡爾廷，可以叫我 David。
 今天來應徵貴公司的前端工程師職位
+會用大概 5 分鐘，快速介紹我的背景、關鍵經驗，以及一個 side project。
 -->
 
 ---
@@ -64,9 +65,11 @@ onMounted(() => {
 </div>
 
 <!--
-我是一位有 9 年以上經驗的前端工程師
-專注於 Vue.js 和相關生態系的開發
-重視使用者體驗與程式碼品質，樂於與團隊協作
+我是一位近 10 年經驗的前端工程師，
+主要專精在 Vue 與相關生態系。
+我的背景主要是中大型 Web 專案，
+從零到一建置後台、會員平台，以及實際商業化的產品。
+我很重視使用者體驗、程式碼品質，也習慣和設計與後端密切合作。
 -->
 
 
@@ -143,6 +146,14 @@ onMounted(() => {
 </div>
 </div>
 
+<!--
+這些是我職涯中最重要的成就亮點
+阿爾伊是同一家公司，中間離開一年後回來
+在阿爾伊，我主要負責金流與第三方平台整合，
+包含 TapPay、Stripe、藍新，以及 Apple Pay、Google Pay。
+這段經驗讓我對穩定性、例外處理與跨團隊溝通非常熟悉。
+-->
+
 ---
 
 ### FunNow - Frontend Engineer（2022/03 - 2023/02）
@@ -161,25 +172,32 @@ onMounted(() => {
 與設計、後端同事協作開發與維護各種類型的專案：形象網站、會員平台、活動網頁、APP 內嵌網頁、內部系統網站
 
 <!--
-這些是我職涯中最重要的成就亮點
-阿爾伊是同一家公司，中間離開一年後回來
-藍新金流整合展示了我的全端思維和對支付安全的理解
-Vite 遷移展示了我的技術決策能力和對開發體驗的重視
+在 FunNow，我主導了一次前端架構遷移，
+從 vue/cli 換到 Vite，啟動速度從原本 30 到 60 秒，
+降到大約 1 到 2 秒。
+同時導入 TypeScript、Composition API 與 Pinia，
+主要目標是提升可維護性與團隊開發體驗。
 -->
 
 
 ---
 
 # 個人專案 - 生活數據視覺化
+<div class="mt-4 flex items-center gap-4">
+<span class="text-sm text-gray-500">技術棧：Vue 3 + TypeScript + Vite + TailwindCSS + Chart.js + D3.js</span>
+<a href="https://clipwww.github.io/log/" class="text-blue-500" target="_blank">🔗 線上展示</a>
+</div>
 
-個人開發的數據視覺化專案，記錄和分析日常生活數據
+利用 Google Sheets 作為資料庫 <a href="https://clipwww.github.io/blog/2021/08/25/google-sheets/" class="text-blue-500 text-xs" target="_blank">文章紀錄</a><br/>
+練習使用剛正式發佈的 Vue 3 以及 TypeScript、VantUI、Chart.js 和 D3.js<br/>
+後隨時間再從 Vue/Cli 遷移至 Vite
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 <div>
 
 🎬 **電影院觀影紀錄**
-- 場次統計、影城分佈、消費分析
-- 貢獻度熱圖、時間熱力圖
+- 場次/消費統計、影片版本/影城分佈
+- 觀影時間熱力圖
 
 <img src="https://hackmd.io/_uploads/HkOEeDmHbg.png" class="rounded shadow-lg mt-2" style="max-height: 180px; object-fit: contain;" />
 
@@ -195,14 +213,13 @@ Vite 遷移展示了我的技術決策能力和對開發體驗的重視
 </div>
 </div>
 
-<div class="mt-4 flex items-center gap-4">
-<span class="text-sm text-gray-500">技術棧：Vue 3 + TypeScript + Vite + TailwindCSS + Chart.js + D3.js</span>
-<a href="https://clipwww.github.io/log/" class="text-blue-500" target="_blank">🔗 線上展示</a>
-</div>
+
 
 <!--
 除了工作，我也在開發個人專案來練習新技術
-Log 專案展示了我對資料視覺化的興趣和前端技術的應用
+這個專案是我用來練習 Vue 3、TypeScript、Vite 的一個生活數據視覺化專案
+同時也是做一個嘗試，在年底時不少 App 都會做年度回顧
+我在做的時候就也邊思考公司的專案是不是也可以做類似的功能，來增加使用者的黏著度和活躍度
 -->
 
 
