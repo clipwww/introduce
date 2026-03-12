@@ -41,7 +41,7 @@ onMounted(() => {
 
 ---
 layout: image-right-third
-image: /profile.jpeg
+image: ./profile.jpeg
 backgroundSize: contain
 ---
 
