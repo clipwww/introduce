@@ -36,11 +36,13 @@ onMounted(() => {
 </div>
 
 <!--
-大家好，我是簡爾廷，可以叫我 David。
-今天來應徵貴公司的前端工程師職位
-會用大概 5 分鐘，快速介紹我的背景、關鍵經驗，以及一個 side project。
+大家好，我是簡爾廷，我的英文名字是 David。
 -->
 
+---
+layout: image-right-third
+image: /profile.jpeg
+backgroundSize: contain
 ---
 
 # 關於我
@@ -65,11 +67,15 @@ onMounted(() => {
 </div>
 
 <!--
+首先先簡單地見紹一下我自己
 我是一位近 10 年經驗的前端工程師，
-主要專精在 Vue 與相關生態系。
-我的背景主要是中大型 Web 專案，
-從零到一建置後台、會員平台，以及實際商業化的產品。
+主要專精在 VueJS 與 VueJS 相關生態系
+同時也具備基礎 NodeJS 後端開發能力
+熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站
+擁有金流整合、第三方平台串接實戰經驗，
 我很重視使用者體驗、程式碼品質，也習慣和設計與後端密切合作。
+積極主動負責，樂於為共同目標與團隊協作，能在團隊協作中發揮正面影響力
+同時我也具備獨立解決問題、能有效完成分配任務與持續學習精進。
 -->
 
 
@@ -101,12 +107,30 @@ onMounted(() => {
 - **資料庫**：MySQL / Redis / MongoDB
 - **ORM**：DrizzleORM
 
+<div class="flex flex-wrap gap-3 mt-4">
+  <img src="https://api.iconify.design/logos:vue.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:javascript.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:vitejs.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:sass.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:graphql.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:nodejs-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:bun.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:redis.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:mongodb-icon.svg" class="w-5" />
+  <img src="https://api.iconify.design/logos:pinia.svg" class="w-10" />
+</div>
+
 </div>
 </div>
 
 <!--
+接著是我的技術專長，都是我在工作中實際使用過的技術
 前端方面，我主要使用 Vue.js 和 Nuxt.js 框架，搭配 TypeScript 開發
-後端部分，我也具備基礎的 Node.js 開發能力，熟悉資料庫操作和金流串接
+後端部分，除了 Node.js 外，近 1 年因為有協助後端開發 Service 而有使用 MySQL、Redis 以及 DrizzleORM 的經驗
 -->
 
 
@@ -139,19 +163,20 @@ onMounted(() => {
 **專案開發與維護**
 - 開發官方網站 (Nuxt)、店家平台（Hybrid App）
 - 多語系架構設計與實作
-- 內部系統、行銷活動網頁
+- 內部使用的 Admin、CMS 系統
+- 行銷活動網頁
 - 處理跨平台／瀏覽器相容性問題
 - 開發維護前端共用組件
+
+<a href="https://clipwww.github.io/personal/projects/rex.html" target="_blank" class="text-blue-500 mt-4 inline-block">🔗 專案列表</a>
 
 </div>
 </div>
 
 <!--
-這些是我職涯中最重要的成就亮點
+這些是我職涯中待最久的公司，也是我最主要的成就亮點
 阿爾伊是同一家公司，中間離開一年後回來
-在阿爾伊，我主要負責金流與第三方平台整合，
-包含 TapPay、Stripe、藍新，以及 Apple Pay、Google Pay。
-這段經驗讓我對穩定性、例外處理與跨團隊溝通非常熟悉。
+處理過的專案數量不少，這裡不列出細節，主要挑幾個重點來說明
 -->
 
 ---
@@ -165,6 +190,7 @@ onMounted(() => {
 - 使用 JIRA、Figma 協調設計與開發流程
 - 與設計師協作重構 Date/Time/DateRange Picker 組件，提升使用體驗
 
+
 --
 
 ### WhatsMedia - 前端工程師（2016/03 - 2017/07）
@@ -172,7 +198,8 @@ onMounted(() => {
 與設計、後端同事協作開發與維護各種類型的專案：形象網站、會員平台、活動網頁、APP 內嵌網頁、內部系統網站
 
 <!--
-在 FunNow，我主導了一次前端架構遷移，
+在 FunNow，我負責的是店家端使用的平台
+這個專案較為陳舊，在主管指示下我主導了構建程式的遷移，
 從 vue/cli 換到 Vite，啟動速度從原本 30 到 60 秒，
 降到大約 1 到 2 秒。
 同時導入 TypeScript、Composition API 與 Pinia，
@@ -199,7 +226,9 @@ onMounted(() => {
 - 場次/消費統計、影片版本/影城分佈
 - 觀影時間熱力圖
 
-<img src="https://hackmd.io/_uploads/HkOEeDmHbg.png" class="rounded shadow-lg mt-2" style="max-height: 180px; object-fit: contain;" />
+<img src="https://hackmd.io/_uploads/HkOEeDmHbg.png" class="inline-block rounded shadow-lg mt-2 mr-1" style="max-height: 180px; object-fit: contain;" />
+<img src="https://hackmd.io/_uploads/S1EdgwmS-e.png" class="inline-block rounded shadow-lg mt-2 mr-1" style="max-height: 180px; object-fit: contain;" />
+<img src="https://hackmd.io/_uploads/S1FPgDXB-e.png" class="inline-block rounded shadow-lg mt-2" style="max-height: 180px; object-fit: contain;" />
 
 </div>
 <div>
@@ -208,7 +237,9 @@ onMounted(() => {
 - 觀賽統計、主場勝率
 - 球場分佈圖
 
-<img src="https://hackmd.io/_uploads/H1tW-vQBbl.png" class="rounded shadow-lg mt-2" style="max-height: 180px; object-fit: contain;" />
+<img src="https://hackmd.io/_uploads/Bkutibx9-g.png" class="inline-block rounded shadow-lg mt-2 mr-1" style="max-height: 180px; object-fit: contain;" />
+<img src="https://hackmd.io/_uploads/rystiWlqbl.png" class="inline-block rounded shadow-lg mt-2 mr-1" style="max-height: 180px; object-fit: contain;" />
+<img src="https://hackmd.io/_uploads/H1RKiZeqWx.png" class="inline-block rounded shadow-lg mt-2 mr-1" style="max-height: 180px; object-fit: contain;" />
 
 </div>
 </div>
