@@ -36,7 +36,7 @@ onMounted(() => {
 </div>
 
 <!--
-大家好，我是簡爾廷，我的英文名字是 David。
+大家/各位/兩位好，我是簡爾廷，我的英文名字是 David。
 -->
 
 ---
@@ -95,6 +95,7 @@ backgroundSize: contain
 - **UI框架**: ElementUI / Vuetify / VantUI / NuxtUI
 - **建構工具**：Vite / VueCli / Parcel.js
 - **國際化**：VueI18n  
+- **版本控制**：Git
 - **其他**：GraphQL / LIFF
 
 </div>
@@ -112,6 +113,7 @@ backgroundSize: contain
   <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:javascript.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:git-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:vitejs.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:sass.svg" class="w-10" />
@@ -141,47 +143,58 @@ backgroundSize: contain
 ### 阿爾伊 - 前端工程師, 資深前端工程師（2017/08 - 2022/02, 2023/03 - 2026/01）
 <div class="text-xs text-gray-400 mt-1">香港商阿爾伊股份有限公司台灣分公司, 阿爾伊股份有限公司</div>
 
+<div class="text-xs mt-2">核心產品「RE·X 點數魔術師」是一個點數整合應用平台，可以到合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵，並且還能夠綁定全家、HAPPYGO 點數來累積與折抵。<a href="https://clipwww.github.io/personal/projects/rex.html" target="_blank" class="text-blue-500 text-xs inline-block">🔗 專案列表</a></div>
 
 <div class="grid grid-cols-2 gap-6">
+
+<div>
+
+**專案開發與維護**
+- 官方網站 (Nuxt SSR)、店家平台（Hybrid App）
+  - 多語系架構設計與實作
+  - 最佳化 SEO 與網站效能
+- 內部 Admin、CMS 系統
+  - 應需求設計與實作各種類型的表單
+- 行銷活動網頁、互動小遊戲
+- 處理跨平台／瀏覽器相容性問題
+- 開發維護前端共用組件
+
+
+</div>
+
 <div>
 
 **金流整合**
-- 串接 TapPay / Stripe / 藍新金流
-- 實作 Apple Pay / Google Pay on Web
-- 串接嵌入式信用卡支付
-- 建立店家藍新金流開通流程與 SFTP 補件機制
+- 串接 TapPay / Stripe 實現店家端加值功能
+- 串接 藍新金流 平台商架構實現消費者端支付功能
+  - 實作 Apple Pay / Google Pay on Web
+  - 串接嵌入式信用卡支付，符合 PCI DSS 安全標準
+  - 建立店家金流開通支付收款與 SFTP 補件流程
 
 **第三方點數平台串接**
 - 串接全家會員平台 / 點數交換平台
-- 紀錄請求回應電文
 - 開發 HAPPYGO App 介接入口 WebView 
 
 
 </div>
-<div>
 
-**專案開發與維護**
-- 開發官方網站 (Nuxt)、店家平台（Hybrid App）
-- 多語系架構設計與實作
-- 內部使用的 Admin、CMS 系統
-- 行銷活動網頁
-- 處理跨平台／瀏覽器相容性問題
-- 開發維護前端共用組件
-
-<a href="https://clipwww.github.io/personal/projects/rex.html" target="_blank" class="text-blue-500 mt-4 inline-block">🔗 專案列表</a>
-
-</div>
 </div>
 
 <!--
 這些是我職涯中待最久的公司，也是我最主要的成就亮點
 阿爾伊是同一家公司，中間離開一年後回來
 處理過的專案數量不少，這裡不列出細節，主要挑幾個重點來說明
+早期店家端平台有儲值功能因此串接 TapPay，在使用地區擴展到新加坡因此串接 Stripe
+前年進行了一次交易流程的大改版，推出了類似支付的功能，因此藉由串接藍新金流的平台商家架構實現
+並且 
 -->
 
 ---
 
 ### FunNow - Frontend Engineer（2022/03 - 2023/02）
+
+<div class="text-xs mt-2">核心產品「FunNow App」是一個即時預訂享樂的平台，能夠輕鬆預訂 15 分鐘後的餐飲、酒吧、按摩、飯店、KTV 等跨產業休閒娛樂，省去查找、排隊、溝通空位的麻煩。</div>
+<div class="text-xs mt-2">我負責的是店家端使用的平台，提供店家管理訂單、設定商品價格與優惠時段等功能</div> 
 
 **專案遷移與優化**
 - 主導 vue/cli → Vite 遷移，**啟動速度從 30-60 秒降至 1-2 秒**
@@ -213,6 +226,7 @@ backgroundSize: contain
 <div class="mt-4 flex items-center gap-4">
 <span class="text-sm text-gray-500">技術棧：Vue 3 + TypeScript + Vite + TailwindCSS + Chart.js + D3.js</span>
 <a href="https://clipwww.github.io/log/" class="text-blue-500" target="_blank">🔗 線上展示</a>
+<a href="https://docs.google.com/spreadsheets/d/1wUt7W8p7c-tlaUCZOI6OwGJODfO-TE7VwPMaBvlv9pQ/edit?gid=1722240544#gid=1722240544" class="text-blue-500 text-xs" target="_blank">🔗 Google Sheets 資料</a>
 </div>
 
 利用 Google Sheets 作為資料庫 <a href="https://clipwww.github.io/blog/2021/08/25/google-sheets/" class="text-blue-500 text-xs" target="_blank">文章紀錄</a><br/>
@@ -258,7 +272,7 @@ backgroundSize: contain
 layout: two-cols
 ---
 
-# 我相信自己可以勝任的原因
+# 最後
 
 <div class="mt-6">
 
