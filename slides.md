@@ -54,7 +54,7 @@ backgroundSize: contain
 
 <div class="mt-4 text-base leading-relaxed">
 
-**9 年以上經驗** 的前端工程師，專精於 Vue.js 及其生態系，具備基礎後端開發能力<br/>
+**9 年以上經驗** 的前端工程師，專精於 Vue.js 及其生態系，並具備後端服務 Node.js, TypeScript 開發經驗。<br/>
 
 熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站<br/>
 
@@ -149,7 +149,7 @@ backgroundSize: contain
 
 <div>
 
-**專案開發與維護**
+**專案開發**
 - 官方網站 (Nuxt SSR)、店家平台（Hybrid App）
   - 多語系架構設計與實作
   - 最佳化 SEO 與網站效能
@@ -296,9 +296,9 @@ layout: two-cols
 
 ### 核心優勢
 
-- **9 年以上** 網站與 Web 應用程式開發經驗
+- **9 年以上** 網站與網站應用程式開發經驗
 - **專精 Vue.js 與生態系**
-- **基礎後端開發經驗**
+- **擁有後端開發經驗** - Node.js / TypeScript
 - **金流串接經驗** - TapPay / Stripe / 藍新
 - **第三方點數串接經驗** - HAPPYGO / 全家點數
 - **重視 UX 與品質** - 確保功能穩定性與可用性
