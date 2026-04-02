@@ -9,6 +9,7 @@ mdc: true
 <script setup>
 import { ref, onMounted } from 'vue'
 
+const base = import.meta.env.BASE_URL
 const companyName = ref('')
 const jobTitle = ref('')
 
@@ -144,7 +145,7 @@ backgroundSize: contain
 
 <div class="flex gap-3">
   <div class="text-sm mt-3">核心產品「RE·X 點數魔術師」是一個點數整合應用平台<br/>可以到合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵<br/>並且還能夠綁定全家、HAPPYGO 點數來累積與折抵。<a href="https://clipwww.github.io/personal/projects/rex.html" target="_blank" class="text-blue-500 text-xs inline-block">🔗 專案列表</a></div>
-  <img src="./rex-app.png" class="w-16 h-16 rounded" />
+  <img :src="`${base}rex-app.png`" class="w-16 h-16 rounded" />
 </div>
 
 
@@ -300,7 +301,7 @@ LINE LIFF 應用程式則是 RE·X 在 LINE 官方帳號上的入口
   <div class="text-lg mt-2">↓</div>
   <div class="border-2 border-[#41B883] rounded-lg px-6 py-3 mt-1 text-center">
     <div class="flex items-center justify-center gap-2">
-      <img src="./rex-boss-app.webp" 
+      <img :src="`${base}rex-boss-app.webp`" 
       class="inline-block w-12 h-12 rounded-xl mb-1 align-middle border border-solid border-white" />
       <span class="font-bold">RE·X BOSS</span>
     </div>
