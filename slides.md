@@ -4,7 +4,6 @@ title: 簡爾廷 - 前端工程師
 info: 面試自我介紹簡報
 transition: slide-left
 mdc: true
-routerMode: hash
 ---
 
 <script setup>
