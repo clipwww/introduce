@@ -9,7 +9,6 @@ mdc: true
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const base = import.meta.env.BASE_URL
 const companyName = ref('')
 const jobTitle = ref('')
 
@@ -145,7 +144,7 @@ backgroundSize: contain
 
 <div class="flex gap-3">
   <div class="text-sm mt-3">核心產品「RE·X 點數魔術師」是一個點數整合應用平台<br/>可以到合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵<br/>並且還能夠綁定全家、HAPPYGO 點數來累積與折抵。<a href="https://clipwww.github.io/personal/projects/rex.html" target="_blank" class="text-blue-500 text-xs inline-block">🔗 專案列表</a></div>
-  <img :src="`${base}rex-app.png`" class="w-16 h-16 rounded" />
+  <img :src="`${$base}rex-app.png`" class="w-16 h-16 rounded" />
 </div>
 
 
@@ -301,7 +300,7 @@ LINE LIFF 應用程式則是 RE·X 在 LINE 官方帳號上的入口
   <div class="text-lg mt-2">↓</div>
   <div class="border-2 border-[#41B883] rounded-lg px-6 py-3 mt-1 text-center">
     <div class="flex items-center justify-center gap-2">
-      <img :src="`${base}rex-boss-app.webp`" 
+      <img :src="`${$base}rex-boss-app.webp`" 
       class="inline-block w-12 h-12 rounded-xl mb-1 align-middle border border-solid border-white" />
       <span class="font-bold">RE·X BOSS</span>
     </div>
@@ -557,59 +556,6 @@ HappyGO 的部分，我負責開發提供給 HappyGO App 介接的 WebView
 
 組件開發方面，我與設計師協作重構了日期、時間、日期範圍選擇器
 提升了整體的使用體驗，這個 DEMO 是我自己另外做的展示頁面
--->
-
-<!-- ---
-
-# WhatsMedia & SOHO 接案
-
-<div class="grid grid-cols-2 gap-6">
-<div>
-
-### WhatsMedia — 前端工程師（2016/03 - 2017/07）
-
-接案型公司，與設計、後端同事協作開發多種專案
-
-<div class="text-xs text-gray-400 mb-1">.NET MVC · C# · Razor · jQuery · Vue.js@1~2 · SCSS</div>
-
-- **統一時代百貨台北店**官網維護與新功能開發
-- **勝悅髮型** — 從零建置官網與後台管理系統
-  - 用 Fullcalendar.js 實作排班與預訂時段
-- **麗寶 Outlet MALL** — 從零建置官網與後台
-- **環球購物中心** — 串接會員系統 SOAP API
-- **林口三井 Outlet** 電子看板
-  - 串接 AccuWeather API、桃園機場航班資訊
-
-</div>
-<div>
-
-### SOHO 接案
-
-**格上租車 APP 小遊戲**
-<div class="text-xs text-gray-400 mb-1">PixiJS · Pixi-Sound · TypeScript · Vue.js@2</div>
-
-- 射擊遊戲：接手並新增遊戲關卡
-- 建置後台管理介面<br/>
-<a href="https://clipwww.github.io/shot-game/" target="_blank" class="text-blue-500 text-xs">🔗 射擊遊戲 DEMO</a>
-
-<img src="https://hackmd.io/_uploads/H132_2gNbe.png" class="rounded shadow-lg mt-1" style="max-height: 100px; object-fit: contain;" />
-
-**GoShare 台南 GoNow EatNow**
-<div class="text-xs text-gray-400 mb-1">Leaflet · Vue.js@2 · MongoDB · Cheerio</div>
-
-- 以手繪地圖為底建立**自訂互動式地圖**
-- 爬蟲抓取 Instagram #hashtag 貼文
-
-</div>
-</div> -->
-
-<!--
-WhatsMedia 是我職涯的第一家公司，是接案型的公司
-因此接觸了各種類型的專案與客戶，包含百貨公司官網、美髮沙龍系統、Outlet 購物中心等
-這段時期讓我累積了不少前端開發的基礎經驗，以及些許 .NET MVC 的開發經驗
-
-SOHO 接案的部分，比較有趣的是格上租車 APP 裡的 PixiJS 射擊小遊戲
-以及 GoShare 台南活動，用 Leaflet 以設計師提供的手繪地圖為底建立自訂的互動式地圖
 -->
 
 ---
