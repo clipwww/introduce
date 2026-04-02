@@ -37,6 +37,9 @@ jobs:
       - name: Build Slidev
         run: pnpm build --base /${{ github.event.repository.name }}/
 
+      - name: Build Slidev (Detail)
+        run: pnpm build:detail
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

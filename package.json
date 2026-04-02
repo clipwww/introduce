@@ -4,7 +4,10 @@
   "description": "面試自我介紹簡報",
   "scripts": {
     "dev": "slidev",
+    "dev:detail": "slidev slides-detail.md",
     "build": "slidev build",
+    "build:detail": "slidev build slides-detail.md --base /introduce/detail/ --out dist/detail",
+    "build:all": "bun run build --base /introduce/ && bun run build:detail",
     "export": "slidev export"
   },
   "keywords": [],

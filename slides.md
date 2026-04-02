@@ -21,8 +21,6 @@ onMounted(() => {
 
 # 簡爾廷 <span class="text-2xl text-gray-400">David, Jian</span>
 
-<div class="text-xl mt-2">前端工程師・9 年以上開發經驗</div>
-
 <div v-if="companyName || jobTitle" class="mt-6 text-lg">
 應徵 <span v-if="companyName" class="text-blue-500 font-bold">{{ companyName || '【公司名稱】' }}</span> <span v-if="jobTitle" class="text-green-500 font-bold">{{ jobTitle || '【職缺名稱】' }}</span>
 </div>
@@ -54,11 +52,11 @@ backgroundSize: contain
 
 <div class="mt-4 text-base leading-relaxed">
 
-**9 年以上經驗** 的前端工程師，專精於 Vue.js 及其生態系，並具備後端服務 Node.js, TypeScript 開發經驗。<br/>
+擁有 **9 年以上**網站與網站應用程式開發經驗的經驗的前端工程師，專精於 <span class="font-bold text-[#41B883]">Vue.js</span> 及其生態系，並具備後端服務 Node.js, TypeScript 開發經驗。<br/>
 
 熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站<br/>
 
-擁有金流整合、第三方平台串接實戰經驗，開發過程高度重視使用者體驗與整體品質<br/>
+具備金流、第三方點數平台串接實戰經驗，開發過程高度重視使用者體驗與整體品質<br/>
 
 積極主動負責，樂於為共同目標與團隊協作，能在團隊協作中發揮正面影響力<br/>
 
@@ -119,6 +117,7 @@ backgroundSize: contain
   <img src="https://api.iconify.design/logos:sass.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:graphql.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:nodejs-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:express.svg" class="w-10 bg-white p-1 rounded" />
   <img src="https://api.iconify.design/logos:bun.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:redis.svg" class="w-10" />
@@ -164,7 +163,7 @@ backgroundSize: contain
 
 <div>
 
-**金流整合**
+**金流串接**
 - 串接 TapPay / Stripe 實現店家端加值功能
 - 串接 藍新金流 平台商架構實現消費者端支付功能
   - 實作 Apple Pay / Google Pay on Web
@@ -211,7 +210,7 @@ HappyGO 則是負責開發要提供給 HappyGO App 介接入口的 WebView，讓
 - 導入 TypeScript，提升程式碼可讀性、可維護性、減少執行時錯誤
 - 配合團隊決定改寫 Composition API、遷移 Vuex 至 Pinia，提升邏輯重用性
 - 使用 JIRA、Figma 協調設計與開發流程
-- 與設計師協作重構 Date/Time/DateRange Picker 組件，提升使用體驗
+- 與設計師協作重構日期時間選擇器組件，提升使用體驗
 
 
 --
@@ -222,7 +221,7 @@ HappyGO 則是負責開發要提供給 HappyGO App 介接入口的 WebView，讓
 
 <!--
 在 FunNow，我負責的是店家端使用的平台
-這個專案較為陳舊，在主管指示下我主導了構建程式的遷移，
+這個專案較為陳舊，在主管指示下我主導了建構工具的遷移，
 從 vue/cli 換到 Vite，啟動速度從原本 30 到 60 秒，
 降到大約 1 到 2 秒。
 同時配合前端團隊的決定導入 TypeScript、Composition API 與 Pinia，
