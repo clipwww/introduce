@@ -103,7 +103,7 @@ backgroundSize: contain
 
 - **執行環境**：Node.js / Bun
 - **框架**：Express.js / Koa.js
-- **資料庫**：MySQL / Redis / MongoDB
+- **資料庫**：MySQL / Redis
 - **ORM**：DrizzleORM
 
 <div class="flex flex-wrap gap-3 mt-4">
@@ -121,7 +121,6 @@ backgroundSize: contain
   <img src="https://api.iconify.design/logos:bun.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:redis.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:mongodb-icon.svg" class="w-5" />
   <img src="https://api.iconify.design/logos:pinia.svg" class="w-10" />
 </div>
 
