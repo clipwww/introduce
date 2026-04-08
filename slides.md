@@ -207,7 +207,7 @@ HappyGO 則是負責開發要提供給 HappyGO App 介接入口的 WebView，讓
 **專案遷移與優化**
 - 主導 vue/cli → Vite 遷移，**啟動速度從 30-60 秒降至 1-2 秒**
 - 導入 TypeScript，提升程式碼可讀性、可維護性、減少執行時錯誤
-- 配合團隊決定改寫 Composition API、遷移 Vuex 至 Pinia，提升邏輯重用性
+- 依團隊共識改寫 Composition API、遷移 Vuex 至 Pinia，提升邏輯重用性
 - 使用 JIRA、Figma 協調設計與開發流程
 - 與設計師協作重構日期時間選擇器組件，提升使用體驗
 

@@ -528,7 +528,7 @@ HappyGO 的部分，我負責開發提供給 HappyGO App 介接的 WebView
   - 開發啟動速度從 **30-60 秒降至 1-2 秒**
 - 導入 **TypeScript**
   - 強化程式碼可讀性與可維護性
-- 配合團隊決定改寫 **Composition API**
+- 依團隊共識改寫 **Composition API**、遷移 Vuex 至 Pinia
 - 使用 **JIRA、Figma** 協調設計與開發流程
 
 </div>
