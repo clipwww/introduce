@@ -648,8 +648,8 @@ layout: two-cols
   <a href="https://clipwww.github.io/personal/" target="_blank" class="text-blue-500 hover:underline">Personal Site</a>
   <span class="text-gray-300">|</span>
   <a href="https://github.com/clipwww" target="_blank" class="text-blue-500 hover:underline">GitHub</a>
-  <span class="text-gray-300">|</span>
-  <a href="https://clipwww.github.io/blog/" target="_blank" class="text-blue-500 hover:underline">Blog</a>
+  <!-- <span class="text-gray-300">|</span>
+  <a href="https://clipwww.github.io/blog/" target="_blank" class="text-blue-500 hover:underline">Blog</a> -->
 </div>
 
 </div>
