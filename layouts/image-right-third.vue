@@ -13,7 +13,7 @@ defineProps({
 
 <template>
   <div class="slidev-layout grid h-full" style="grid-template-columns: 3fr 1fr;">
-    <div class="p-10 flex flex-col justify-center">
+    <div class="flex flex-col justify-center">
       <slot />
     </div>
     <div class="flex items-center pr-6">

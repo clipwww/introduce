@@ -38,30 +38,52 @@ onMounted(() => {
 -->
 
 ---
-layout: image-right-third
-image: ./profile.jpeg
-backgroundSize: contain
----
 
 # 關於我
 
-<div class="text-xs text-gray-500 mt-4">
+<div class="flex items-center gap-8">
+<div>
+<div class="text-xs text-gray-500 mt-2">
 東海大學資訊管理研究所 (2013-2015)<br>
 東海大學資訊工程學系 (2009-2013)
 </div>
 
-<div class="mt-4 text-base leading-relaxed">
+<div class="mt-2 text-base leading-relaxed">
 
-擁有 **9 年以上**網站與網站應用程式開發經驗的經驗的前端工程師，專精於 <span class="font-bold text-[#41B883]">Vue.js</span> 及其生態系，並具備後端服務 Node.js, TypeScript 開發經驗。<br/>
+  擁有 **9 年以上**網站與網站應用程式開發經驗的經驗的前端工程師，專精於 <span class="font-bold text-[#41B883]">Vue.js</span> 及其生態系，並具備後端服務 Node.js, TypeScript 開發經驗。<br/>
 
-熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站<br/>
+  熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站，<br/>並擁有金流以及第三方點數平台串接實戰經驗<br/>
 
-具備金流、第三方點數平台串接實戰經驗，開發過程高度重視使用者體驗與整體品質<br/>
+  開發過程高度重視使用者體驗與整體品質，<br/>但不會固執於己見，能靈活應對不同需求。<br/>
 
-積極主動負責，樂於為共同目標與團隊協作，能在團隊協作中發揮正面影響力<br/>
+  積極有責任感，樂於主動協助團隊，為共同目標努力。<br/>
 
-同時具備獨立解決問題、有效完成分配任務與持續學習精進的能力。
+  具備獨立解決問題、有效完成分配任務與持續學習精進的能力。
 
+</div>
+</div>
+
+  <img src="./profile.jpeg" class="w-48 h-48 rounded-2xl" />
+</div>
+
+
+<div class="flex flex-wrap gap-3 mt-1">
+  <img src="https://api.iconify.design/logos:vue.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:javascript.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:git-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:vitejs.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:pinia.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:sass.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:element.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:graphql.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:nodejs-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:express.svg" class="w-20 bg-white px-1 rounded" />
+  <img src="https://api.iconify.design/logos:bun.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:redis.svg" class="w-10" />
 </div>
 
 <!--

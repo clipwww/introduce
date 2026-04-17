@@ -38,30 +38,52 @@ onMounted(() => {
 -->
 
 ---
-layout: image-right-third
-image: ./profile.jpeg
-backgroundSize: contain
----
 
 # 關於我
 
-<div class="text-xs text-gray-500 mt-4">
+<div class="flex items-center gap-8">
+<div>
+<div class="text-xs text-gray-500 mt-2">
 東海大學資訊管理研究所 (2013-2015)<br>
 東海大學資訊工程學系 (2009-2013)
 </div>
 
-<div class="mt-4 text-base leading-relaxed">
+<div class="mt-2 text-base leading-relaxed">
 
-擁有 **9 年以上**網站與網站應用程式開發經驗的經驗的前端工程師，專精於 <span class="font-bold text-[#41B883]">Vue.js</span> 及其生態系，並具備後端服務 Node.js, TypeScript 開發經驗。<br/>
+  擁有 **9 年以上**網站與網站應用程式開發經驗的經驗的前端工程師，專精於 <span class="font-bold text-[#41B883]">Vue.js</span> 及其生態系，並具備後端服務 Node.js, TypeScript 開發經驗。<br/>
 
-熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站<br/>
+  熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站，<br/>並擁有金流以及第三方點數平台串接實戰經驗<br/>
 
-具備金流、第三方點數平台串接實戰經驗，開發過程高度重視使用者體驗與整體品質<br/>
+  開發過程高度重視使用者體驗與整體品質，<br/>但不會固執於己見，能靈活應對不同需求。<br/>
 
-積極主動負責，樂於為共同目標與團隊協作，能在團隊協作中發揮正面影響力<br/>
+  積極有責任感，樂於主動協助團隊，為共同目標努力。<br/>
 
-同時具備獨立解決問題、有效完成分配任務與持續學習精進的能力。
+  具備獨立解決問題、有效完成分配任務與持續學習精進的能力。
 
+</div>
+</div>
+
+  <img src="./profile.jpeg" class="w-48 h-48 rounded-2xl" />
+</div>
+
+
+<div class="flex flex-wrap gap-3 mt-1">
+  <img src="https://api.iconify.design/logos:vue.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:javascript.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:git-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:vitejs.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:pinia.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:sass.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:element.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:graphql.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:nodejs-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:express.svg" class="w-20 bg-white px-1 rounded" />
+  <img src="https://api.iconify.design/logos:bun.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:redis.svg" class="w-10" />
 </div>
 
 <!--
@@ -79,97 +101,34 @@ backgroundSize: contain
 
 ---
 
-# 技術專長
+# 工作經歷 - 阿爾伊
 
-<div class="grid grid-cols-2 gap-8">
-<div>
-
-### 前端技術
-
-- **框架**：Vue.js / Nuxt.js
-- **語言**：TypeScript / JavaScript
-- **狀態管理**：Pinia / Vuex
-- **樣式**：TailwindCSS / SASS
-- **UI框架**: ElementUI / Vuetify / VantUI / NuxtUI
-- **建構工具**：Vite / VueCli / Parcel.js
-- **國際化**：VueI18n  
-- **版本控制**：Git
-- **其他**：GraphQL / LIFF
-
-</div>
-<div>
-
-### 後端 & 工具
-
-- **執行環境**：Node.js / Bun
-- **框架**：Express.js / Koa.js
-- **資料庫**：MySQL / Redis
-- **ORM**：DrizzleORM
-
-<div class="flex flex-wrap gap-3 mt-4">
-  <img src="https://api.iconify.design/logos:vue.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:javascript.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:git-icon.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:vitejs.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:sass.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:graphql.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:nodejs-icon.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:express.svg" class="w-10 bg-white p-1 rounded" />
-  <img src="https://api.iconify.design/logos:bun.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:redis.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:pinia.svg" class="w-10" />
-</div>
-
-</div>
-</div>
-
-<!--
-接著是我的技術專長，都是我在工作中實際使用過的技術
-前端方面，我主要使用 Vue.js 及相關生態系的框架、套件像是 Nuxt.js, 狀態管理 Pinia，搭配 TypeScript 開發
-後端部分，除了 Node.js, Express.js 外，近年因為有協助後端開發 Service 而有使用 MySQL、Redis 以及 ORM 的經驗
--->
-
-
----
-
-# 阿爾伊 — 概述
-
-### 前端工程師 → 資深前端工程師（2017/08 - 2022/02, 2023/03 - 2026/01）
-<div class="text-xs text-gray-400 mt-1">香港商阿爾伊股份有限公司台灣分公司, 阿爾伊股份有限公司</div>
-
-<div class="flex gap-3">
-  <div class="text-sm mt-3">核心產品「RE·X 點數魔術師」是一個點數整合應用平台<br/>可以到合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵<br/>並且還能夠綁定全家、HAPPYGO 點數來累積與折抵。<a href="https://clipwww.github.io/personal/projects/rex.html" target="_blank" class="text-blue-500 text-xs inline-block">🔗 專案列表</a></div>
-  <img :src="`${$base}rex-app.png`" class="w-16 h-16 rounded" />
+<div class="flex gap-6 mt-3">
+  <img :src="`${$base}rex-app.png`" class="w-12 h-12 rounded" />
+  <div class="text-sm flex-1">核心產品「RE·X 點數魔術師」是一個點數整合應用平台，消費者可在合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵，並且還能夠綁定全家、HAPPYGO 點數來累積與折抵。</div>
 </div>
 
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 <div>
 
-**消費者/店家端**
-- RE·X 官方網站（Nuxt2 SSR）
-- RE·X BOSS 店家管理系統（Hybrid App）
-- RE·X Web SDK
-  - 提供第三方合作廠商串接交易流程
-  - 實作 Apple Pay / Google Pay on Web
-- RE·X LIFF（LINE@ 應用程式）
-- HappyGO Portal Web (Hybrid App）
-- 多個行銷活動小遊戲
-
+**Web**
+- 官方網站（Nuxt2 SSR）
+- 店家管理系統（Hybrid App）
+- 市場開發系統
+- 公司內部管理系統
+- 官方LINE@LIFF
+- 藍新金流交易查詢工具（Nuxt4）
+- 共用 Vue 組件（公司私有 npm）
 </div>
 <div>
 
-**內部系統 & 其他**
-- RE·X Admin 管理後台
-- RE·X RD CMS 內容管理
-- RE·X 市場開發系統
-- 共用 Vue 組件（私有 npm）
-- 後端服務（Fami / Check-In / POS / 藍新商家）
-- 藍新金流交易查詢工具（Nuxt4）
+**Service**
+- 全家會員與點數服務
+- 簽到活動服務
+- 藍新金流商家申請服務 -  SFTP 補件功能
+
+
 
 </div>
 </div>
@@ -513,8 +472,6 @@ HappyGO 的部分，我負責開發提供給 HappyGO App 介接的 WebView
 
 # FunNow Group
 
-### Frontend Engineer（2022/03 - 2023/02）
-
 <div class="text-sm mt-1">核心產品「FunNow App」是即時預訂享樂平台。</div>
 
 <div class="grid grid-cols-2 gap-6 mt-4">
@@ -562,16 +519,15 @@ HappyGO 的部分，我負責開發提供給 HappyGO App 介接的 WebView
 
 ---
 
-# 個人專案 - 生活數據視覺化
-<div class="mt-4 flex items-center gap-4">
-<span class="text-xs text-gray-500">Vue 3 + TypeScript + Vite + TailwindCSS + Chart.js + D3.js</span>
-<a href="https://clipwww.github.io/log/" class="text-blue-500" target="_blank">🔗 線上展示</a>
-<!-- <a href="https://docs.google.com/spreadsheets/d/1wUt7W8p7c-tlaUCZOI6OwGJODfO-TE7VwPMaBvlv9pQ/edit?gid=1722240544#gid=1722240544" class="text-blue-500 text-xs" target="_blank">🔗 Google Sheets 資料</a> -->
-</div>
+# 個人專案 - 個人記錄視覺化
 
 <!-- <a href="https://clipwww.github.io/blog/2021/08/25/google-sheets/" class="text-blue-500 text-xs" target="_blank">文章紀錄</a> -->
 利用 Google Sheets 作為資料庫 <br/>
 紀錄自己進影廳看電影以及進球場看棒球的資料，並將其視覺化呈現
+
+- 利用 Google Sheets 作為資料庫
+- 使用 D3.js, Chart.js 實作資料視覺化呈現
+- 使用 Leaflet 實作地圖呈現棒球場位置
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 <div>
