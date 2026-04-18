@@ -41,8 +41,8 @@ onMounted(() => {
 
 # 關於我
 
-<div class="flex items-center gap-8">
-<div>
+<div class="flex items-center gap-12">
+<div class="whitespace-nowrap">
 <div class="text-xs text-gray-500 mt-2">
 東海大學資訊管理研究所 (2013-2015)<br>
 東海大學資訊工程學系 (2009-2013)
@@ -50,23 +50,27 @@ onMounted(() => {
 
 <div class="mt-2 text-base leading-relaxed">
 
-  擁有 **9 年以上**網站與網站應用程式開發經驗的經驗的前端工程師，專精於 <span class="font-bold text-[#41B883]">Vue.js</span> 及其生態系，並具備後端服務 Node.js, TypeScript 開發經驗。<br/>
+  **9 年以上** Web 開發經驗，專精於 <span class="font-bold text-[#41B883]">Vue.js</span> 生態系<br/>
 
-  熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站，<br/>並擁有金流以及第三方點數平台串接實戰經驗<br/>
+  具備 **Node.js / TypeScript** 後端服務開發經驗<br/>
 
-  開發過程高度重視使用者體驗與整體品質，<br/>但不會固執於己見，能靈活應對不同需求。<br/>
+  熟悉從零到一建置**管理系統、會員平台**等服務型網站<br/>
 
-  積極有責任感，樂於主動協助團隊，為共同目標努力。<br/>
+  擁有**金流串接**與**第三方點數平台**整合實戰經驗<br/>
 
-  具備獨立解決問題、有效完成分配任務與持續學習精進的能力。
+  重視使用者體驗與程式碼品質，但保有彈性，不會固執己見<br/>
+  
+  積極有責任感，樂於主動協助團隊成員<br/>
+
+  能夠獨立作業、解決問題，並持續自主學習
+
 
 </div>
 </div>
 
-  <img src="./profile.jpeg" class="w-48 h-48 rounded-2xl" />
-</div>
-
-<div class="flex flex-wrap gap-3 mt-2">
+<div>
+<!-- <img src="./profile.jpeg" class="w-48 h-48 mx-auto rounded-2xl" /> -->
+<div class="flex flex-wrap justify-center gap-3 mt-4">
   <img src="https://api.iconify.design/logos:vue.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-10" />
@@ -82,6 +86,9 @@ onMounted(() => {
   <img src="https://api.iconify.design/logos:redis.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:git-icon.svg" class="w-10" />
 </div>
+</div>
+</div>
+
 
 <!--
 大家好，我是簡爾廷，英文名字是 David。
@@ -533,13 +540,13 @@ layout: two-cols
 
 ### 核心優勢
 
-- **9 年以上** 網站與網站應用程式開發經驗
-- **專精 Vue.js 與生態系**
-- **擁有後端開發經驗** - Node.js / TypeScript
-- **金流串接經驗** - TapPay / Stripe / 藍新
-- **第三方點數串接經驗** - HAPPYGO / 全家點數
-- **重視 UX 與品質** - 確保功能穩定性與可用性
+- **9 年以上** Web 開發經驗
+- **專精 Vue.js 生態系**
+- **後端服務開發經驗** - Node.js / TypeScript
+- **金流/第三方點數串接經驗**
+- **重視 UX 與品質**
 - **團隊協作** - 積極主動負責，樂於溝通協調
+- **獨立作業能力** - 自主學習，持續成長
 
 </div>
 
