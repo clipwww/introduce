@@ -66,405 +66,357 @@ onMounted(() => {
   <img src="./profile.jpeg" class="w-48 h-48 rounded-2xl" />
 </div>
 
-
-<div class="flex flex-wrap gap-3 mt-1">
+<div class="flex flex-wrap gap-3 mt-2">
   <img src="https://api.iconify.design/logos:vue.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:javascript.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:git-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:vitejs.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:pinia.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-10" />
-  <img src="https://api.iconify.design/logos:sass.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:element.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:graphql.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:nodejs-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:express.svg" class="w-20 bg-white px-1 rounded" />
-  <img src="https://api.iconify.design/logos:bun.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:redis.svg" class="w-10" />
+  <img src="https://api.iconify.design/logos:git-icon.svg" class="w-10" />
 </div>
 
 <!--
-首先先簡單地見紹一下我自己
-我是一位有 9 年多經驗的前端工程師，
-主要專精在 VueJS 與 VueJS 相關生態系
-同時也具備基礎 NodeJS 後端開發能力
-熟悉如何從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站
-擁有金流整合、第三方平台串接實戰經驗，
-我很重視使用者體驗、程式碼品質，但不會固執具有彈性，也習慣和設計與後端密切合作。
-積極主動負責，樂於為共同目標與團隊協作，能在團隊協作中發揮正面影響力
-同時我也具備獨立解決問題、能有效完成分配任務與持續學習精進。
+大家好，我是簡爾廷，英文名字是 David。
+我是一位有 9 年多經驗的前端工程師，主要專精在 Vue.js 與相關生態系，同時也具備 Node.js 後端開發能力。
+熟悉從零到一建置後台管理系統、會員平台等服務型網站，擁有金流串接與第三方點數平台整合的實戰經驗。
+我重視使用者體驗與程式碼品質，積極主動負責，樂於團隊協作。
 -->
 
 
 ---
 
-# 工作經歷 - 阿爾伊
+# 工作經歷 — 阿爾伊 <span class="text-base text-gray-400 font-normal">（近 8 年）</span>
 
-<div class="flex gap-6 mt-3">
-  <img :src="`${$base}rex-app.png`" class="w-12 h-12 rounded" />
-  <div class="text-sm flex-1">核心產品「RE·X 點數魔術師」是一個點數整合應用平台，消費者可在合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵，並且還能夠綁定全家、HAPPYGO 點數來累積與折抵。</div>
+<div class="flex items-center gap-4 mt-2">
+  <img :src="`${$base}rex-app.png`" class="w-14 h-14 rounded-xl" />
+  <div>
+    <div class="text-base">核心產品「<strong>RE·X 點數魔術師</strong>」— 點數整合應用平台</div>
+    <div class="text-xs text-gray-400 mt-1">消費者可在合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵，並且還能夠綁定全家、HAPPYGO 點數來累積與折抵。</div>
+  </div>
 </div>
-
 
 <div class="grid grid-cols-2 gap-6 mt-4">
+
 <div>
-
-**Web**
-- 官方網站（Nuxt2 SSR）
-- 店家管理系統（Hybrid App）
-- 市場開發系統
-- 公司內部管理系統
-- 官方LINE@LIFF
-- 藍新金流交易查詢工具（Nuxt4）
-- 共用 Vue 組件（公司私有 npm）
+  <div class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Web 專案</div>
+  <div class="flex flex-col gap-2">
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-28">官方網站</div>
+      <div class="text-xs text-gray-400">Nuxt 2 SSR</div>
+    </div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-28">BOSS 店家管理</div>
+      <div class="text-xs text-gray-400"> Hybrid App · Vue 2.7 · Vite</div>
+    </div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-28">官方LINE@LIFF</div>
+      <div class="text-xs text-gray-400">Vue 3 · LIFF SDK</div>
+    </div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-28">市場開發系統</div>
+      <div class="text-xs text-gray-400">Nuxt 2 · ElementUI</div>
+    </div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-28">內部管理系統</div>
+      <div class="text-xs text-gray-400">Vue 2.7 · Vite · ElementUI · GraphQL</div>
+    </div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-28">Vue 共用組件</div>
+      <div class="text-xs text-gray-400">Vue 2 / 3 · 私有 npm</div>
+    </div>
+  </div>
 </div>
+
 <div>
-
-**Service**
-- 全家會員與點數服務
-- 簽到活動服務
-- 藍新金流商家申請服務 -  SFTP 補件功能
-
-
+  <div class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">後端服務 / 內部工具</div>
+  <div class="flex flex-col gap-2">
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-32">全家會員與點數服務</div>
+      <div class="text-xs text-gray-400">TypeScript · Express · MySQL · Redis</div>
+    </div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-32">簽到活動服務</div>
+      <div class="text-xs text-gray-400">TypeScript · Express · MySQL · Redis · Cron</div>
+    </div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-32">藍新商家申請服務</div>
+      <div class="text-xs text-gray-400">TypeScript · Express · SFTP · Cron</div>
+    </div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
+      <div class="font-bold text-sm w-32">藍新交易查詢工具</div>
+      <div class="text-xs text-gray-400">Nuxt4 · NuxtUI</div>
+    </div>
+  </div>
+</div>
 
 </div>
+
+<div class="flex items-center gap-6 mt-3 text-sm justify-center">
+  <span>金流串接：TapPay / Stripe / 藍新</span>
+  <span>第三方點數：全家 / HAPPYGO</span>
 </div>
 
 <!--
-首先是我職涯中待最久的公司，阿爾伊，將近 8 年的時間
-深度參與了公司產品與內部系統的開發
-公司核心產品「RE·X 點數魔術師」是一個點數整合應用平台
-可以到合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵
-並且還能夠綁定全家、HAPPYGO 點數來累積與折抵
-我處理過的專案數量不少，左邊是面向使用者的產品，右邊是內部系統與其他項目
-接下來幾頁我會分別介紹這些專案的重點
+首先是我職涯中待最久的公司，阿爾伊，將近 8 年的時間。
+公司核心產品「RE·X 點數魔術師」是一個點數整合應用平台，消費者可在合作店家進行交易獲得高額回饋點數，點數又可在下次消費折抵。
+我在這家公司從前端工程師做到資深前端工程師，負責了非常多的專案，接下來幾頁會分別介紹。
 -->
 
 ---
 
-# 阿爾伊 — 消費者端
+# RE·X 官方網站
 
-<div class="grid grid-cols-2 gap-6">
-<div>
-
-### RE·X 官方網站
-<div class="text-xs text-gray-400">Nuxt.js@2 (SSR) · Express.js · Vue-i18n · TailwindCSS</div>
-
-負責前端專案架構設計與開發
-
-- 實作 **LRU Cache** 快取策略，提升回應速度
-- **Bot 偵測**與差異化處理，優化 SSR 效能
-- **Lazy Hydration**（延遲水合），提升首屏載入速度
-- 設計與實作**多語系架構**
-- 動態 **Sitemap** 生成、**Deep Link** 處理
-- 動態 Meta Tags，優化 **SEO** 與社群分享
-
-<div class="flex gap-1 mt-1">
-<img src="https://hackmd.io/_uploads/BkFMflZV-g.png" class="rounded shadow-lg mt-2" style="max-height: 140px; object-fit: contain;" />
-<img src="https://hackmd.io/_uploads/Hk7G7lbVWl.png" class="rounded shadow-lg mt-2" style="max-height: 140px; object-fit: contain;" />
-<img src="https://hackmd.io/_uploads/HJgszxZEZl.png" class="rounded shadow-lg mt-2" style="max-height: 140px; object-fit: contain;" />
+<div class="flex gap-2 mt-1 mb-2">
+  <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-7" />
+  <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-7" />
+  <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-7" />
+  <img src="https://api.iconify.design/logos:express.svg" class="w-14 bg-white px-1 rounded" />
+  <img src="https://api.iconify.design/logos:sass.svg" class="w-7" />
 </div>
 
+<div class="text-sm text-gray-500 mb-3">官方形象網站，提供平台介紹、合作店家列表、App 下載及聯絡客服等資訊，並支援多地區與多語系。<br/>行銷活動以及 App 內的 WebView 頁面也由此專案提供。</div>
+
+- **SSR 效能優化** — 提升 Core Web Vitals（LCP / FID / CLS）至良好等級
+  - LRU Cache 緩存靜態資料、Lazy Hydration 延遲非必要水合、Nuxt Image 圖片壓縮
+- **多地區多語系** — 設計並實作 vue-i18n 架構，支援台灣 / 新加坡 / 馬來西亞
+- **SEO** — 動態 Sitemap、Meta Tags、社群分享 OG Tags
+- **Express 自訂路由** — 行銷短網址、App Deep Link 處理
+
+<img src="https://hackmd.io/_uploads/BkFMflZV-g.png" class="rounded shadow-lg mt-3" style="max-height: 160px; object-fit: contain;" />
+
+<!--
+RE·X 官方網站是揭露公司資訊的形象官網。
+為了良好的 SEO，使用 Nuxt.js 實作 SSR。
+效能方面，實作了 LRU Cache 快取策略、Bot 偵測差異化處理、以及 Lazy Hydration 延遲水合來優化首屏載入速度。
+在公司將產品從台灣擴展到馬來西亞跟新加坡的過程中，由我設計與實作多語系架構。
+Express 自訂路由處理行銷短網址與 App Deep Link 的邏輯。
+行銷活動以及 App 內的 WebView 頁面也由此專案提供。
+-->
+
+---
+layout: two-cols
+---
+
+# BOSS 店家管理系統
+
+<div class="flex gap-2 mt-1 mb-2">
+  <img src="https://api.iconify.design/logos:vue.svg" class="w-7" />
+  <img src="https://api.iconify.design/logos:vitejs.svg" class="w-7" />
+  <img src="https://api.iconify.design/logos:express.svg" class="w-14 bg-white px-1 rounded" />
+  <img src="https://api.iconify.design/logos:d3.svg" class="w-7" />
+  <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-7" />
 </div>
+
+<div class="text-sm text-gray-500 mb-3">店家端後台管理系統，Hybrid App 形式同時支援 iOS、Android 與網頁，提供店家訂單查詢、交易分析、請款等功能。</div>
+
+- **Hybrid App** — 處理 Web 與 Native App 溝通
+- **Vue/cli → Vite** — 大幅提升開發啟動速度
+- 與同事協作用 **D3.js** 實作交易資料視覺化（訂單分析、會員分析）
+- 規劃設計與實作廣宣物下載功能
+  - 公司內部管理系統 CRUD 表單，提供同事管理廣宣物資料
+  - 店家端使用 `Sharp` 帶入推薦碼與文案生成結帳立牌與行銷廣宣物
+- 串接 TapPay, Stripe 實作台灣/新加坡店家加值功能
+
+::right::
+
+<div class="pl-4 pt-10 text-center">
+
+```mermaid {scale: 0.8}
+graph TD
+    subgraph BOSS 店家管理系統
+      iOS[iOS<br/>Native 殼]
+      Android[Android<br/>Native 殼]
+      Web[瀏覽器]
+      APP
+    end
+  
+    iOS <-->|JS Bridge| APP[Web<br/>Vue 2.7 + Vite + Express]
+    Android <-->|JS Bridge| APP
+    Web <--> APP
+
+    APP <-->|Proxy| API[RE·X API]
+
+    style APP fill:#41B883,color:#fff
+    style API fill:#3B82F6,color:#fff
+```
+
+
+
+</div>
+
+<!--
+RE·X BOSS 店家管理系統是 Hybrid App 的架構，一份程式碼同時運行於 iOS、Android 與 Web 三個平台，透過 JS Bridge 與 Native App 溝通。
+我將專案從 Vue/cli 遷移至 Vite 來提升開發體驗，也用 D3.js 實作了交易分析、會員分析的資料視覺化功能。
+另外也用 Sharp 跟 pdfmake 實作了結帳立牌的圖片生成功能。
+金流方面，串接了 TapPay 支援台灣店家、Stripe 支援新加坡店家的付款與綁卡自動扣款，並將 TapPay 封裝為 Vue 組件提供不同專案使用。
+-->
+
+---
+layout: two-cols
+---
+
+# 內部系統
 
 <div>
 
-### LINE LIFF 應用程式
-<div class="text-xs text-gray-400">Vue.js@3 · TypeScript · LIFF SDK · html5-qrcode</div>
+### 市場開發系統
+<div class="flex gap-2 mt-1 mb-2">
+  <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-6" />
+  <img src="https://api.iconify.design/logos:element.svg" class="w-6" />
+  <img src="https://api.iconify.design/logos:google-maps.svg" class="w-6" />
+</div>
 
-負責前端專案架構設計與開發
+<div class="text-xs text-gray-500 mb-2">供市場部業務與合作夥伴使用的店家開發平台，由我從零到一設計開發。</div>
 
-- 使用 LINE LIFF SDK 實作會員登入綁定
-- 使用 html5-qrcode 實作相機掃碼功能
-- 實作 **Apple Pay / Google Pay on Web**
+- Zod 實作各欄位**連動驗證**，引導表單填寫
+- **Google Maps API** 地址自動補全與座標抓取
+- 證件**浮水印**處理 + **GCS** 加密上傳，確保資料安全
+- 串接藍新金流**商家開通**流程
 
-<div class="flex gap-1 mt-1">
+</div>
+
+::right::
+
+<div class="pl-4">
+
+### RE·X Admin
+<div class="flex gap-2 mt-1 mb-2">
+  <img src="https://api.iconify.design/logos:vue.svg" class="w-6" />
+  <img src="https://api.iconify.design/logos:vitejs.svg" class="w-6" />
+  <img src="https://api.iconify.design/logos:element.svg" class="w-6" />
+  <img src="https://api.iconify.design/logos:graphql.svg" class="w-6" />
+</div>
+
+<div class="text-xs text-gray-500 mb-2">依權限控管提供各部門使用的內部管理系統，接手為主要維護、開發者。</div>
+
+- **Nuxt1 → Vue/cli → Vite** 兩次建構遷移，大幅提升啟動與熱重載速度
+- Apollo Client 串接 **GraphQL** API
+- 建立 ElementUI 共用組件庫（表單、表格、Modal），快速應對各部門需求
+- 依需求設計實作 **CRUD** 表單功能
+
+</div>
+
+<!--
+市場開發系統是供業務使用的店家開發平台，由我從零到一設計與開發。
+用 Zod 做表單驗證、串接 Google Maps API 自動補全地址、證件文件上傳 Google Cloud Storage 同時加上浮水印。
+並且串接藍新金流的商家開通流程，包括 SFTP 補件與排程拉取回覆檔。
+
+Admin 後台是公司最大的內部系統，依權限控管提供多部門使用。
+經歷了從 Nuxt1 到 Vue/cli 再到 Vite 兩次建構工具的遷移。
+我在這個專案中建立了共用組件庫，讓團隊可以快速應對不同部門的需求。
+也有使用 Apollo Client 串接 GraphQL API 的經驗。
+-->
+
+---
+
+# LINE LIFF 應用程式
+
+<div class="flex gap-2 mt-1 mb-2">
+  <img src="https://api.iconify.design/logos:vue.svg" class="w-7" />
+  <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-7" />
+  <img src="https://api.iconify.design/logos:express.svg" class="w-14 bg-white px-1 rounded" />
+</div>
+
+<div class="text-sm text-gray-500 mb-3">LINE Front-end Framework（LIFF）應用，讓會員可透過官方 LINE@ 進行帳號綁定、查看點數、掃碼交易與行動支付。由我從零到一設計與開發。</div>
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+- **LINE LIFF SDK** 實作會員登入綁定
+- **html5-qrcode** 實作相機掃碼交易（應對 LIFF SDK 部分裝置不支援掃碼）
+- 串接藍新金流實作 **Apple Pay on Web** 與 **Google Pay on Web**
+- 串接藍新**嵌入式信用卡支付** — 符合 PCI DSS 安全標準
+- 封裝金流相關功能為公司私有 **Vue** 共用組件 npm 套件
+
+
+</div>
+<div>
+
+<div class="flex gap-2 justify-center">
 <img src="https://hackmd.io/_uploads/SJk8nhl4We.png" class="rounded shadow-lg" style="max-height: 200px; object-fit: contain;" />
-<img src="https://hackmd.io/_uploads/SJ3wBpgV-l.png" class="rounded shadow-lg" style="max-height: 200px; object-fit: contain;" />
 <img src="https://hackmd.io/_uploads/SyRvEpeE-g.png" class="rounded shadow-lg" style="max-height: 200px; object-fit: contain;" />
 </div>
 
 </div>
-
 </div>
 
 <!--
-RE·X 官方網站是揭露公司資訊的形象官網
-為了良好的 SEO，使用 Nuxt.js 實作 SSR
-效能方面，實作了 LRU Cache 快取策略、Bot 偵測差異化處理、以及 Lazy Hydration 延遲水合來優化首屏載入速度
-並且在公司將產品從台灣擴展到馬來西亞跟新加坡的過程中設計與實作了多語系架構
-
-LINE LIFF 應用程式則是 RE·X 在 LINE 官方帳號上的入口
-使用 LINE LIFF SDK 實作會員登入綁定
-利用 html5-qrcode 實作相機掃碼功能，提供掃碼交易體驗
-同時也整合了 Apple Pay on Web 與 Google Pay on Web
+LINE LIFF 應用程式是 RE·X 在 LINE 官方帳號上的入口，由我從零到一設計與開發。
+使用 LINE LIFF SDK 實作會員登入綁定，利用 html5-qrcode 實作相機掃碼功能，提供掃碼交易體驗。
+2024 年 9 月上線了消費者支付功能，透過串接藍新金流的平台商架構實現消費者付款給店家。
+當時除了 App 外，LINE 也是交易入口，因此實作了 Apple Pay on Web 與 Google Pay on Web。
+2025 年初因應 PCI DSS 安全標準，串接了藍新的嵌入式信用卡支付。
+我將這些金流相關的組件封裝為共用組件，並發佈到內部私有 npm 套件。
 -->
 
 ---
 
-# 阿爾伊 — 店家端
+# 後端服務與內部工具
 
-<div class="grid grid-cols-2 gap-6">
+<div class="text-sm text-gray-500 mb-3">除了前端專案，也負責以下後端服務的開發</div>
 
+<div class="grid grid-cols-2 gap-4">
 
-<div>
-
-### RE·X BOSS 店家管理系統
-<div class="text-xs text-gray-400">Vue.js@2.7 · Vite · Express.js · D3.js · TailwindCSS</div>
-
-負責新功能的架構設計與開發
-
-- **Hybrid App** 處理 Web 與 Native App 溝通
-- 設計與實作**多語系架構**
-- 從 **Vue/cli 遷移至 Vite**，大幅提升啟動速度
-- 用 **D3.js** 實作資料視覺化（交易/會員分析）
-- 用 Sharp、pdfmake 實作圖片生成（結帳立牌）
-
-<div class="flex gap-1 mt-1">
-<img src="https://hackmd.io/_uploads/rybwPgbVbg.png" class="rounded shadow-lg mt-2" style="max-height: 160px; object-fit: contain;" />
-<img src="https://hackmd.io/_uploads/BJtnveW4Wl.png" class="rounded shadow-lg mt-2" style="max-height: 160px; object-fit: contain;" />
-<img src="https://hackmd.io/_uploads/ry51txbE-l.png" class="rounded shadow-lg mt-2" style="max-height: 160px; object-fit: contain;" />
-<img src="https://hackmd.io/_uploads/rJK2vgbE-e.png" class="rounded shadow-lg mt-2" style="max-height: 160px; object-fit: contain;" />
-</div>
-
-</div>
-
-<div>
-
-
-<div class="flex flex-col items-center mt-4">
-  <div class="flex gap-6 items-end">
-    <div class="flex flex-col items-center">
-      <img src="https://api.iconify.design/logos:apple-app-store.svg" class="w-10 h-10" />
-      <span class="text-xs mt-1 text-gray-500">iOS</span>
-    </div>
-    <div class="flex flex-col items-center">
-      <img src="https://api.iconify.design/logos:google-play-icon.svg" class="w-10 h-10" />
-      <span class="text-xs mt-1 text-gray-500">Android</span>
-    </div>
-    <div class="flex flex-col items-center">
-      <img src="https://api.iconify.design/logos:chrome.svg" class="w-10 h-10" />
-      <span class="text-xs mt-1 text-gray-500">Web</span>
-    </div>
+<div class="border border-gray-200 rounded-lg p-4">
+  <div class="font-bold mb-1">全家會員與點數服務</div>
+  <div class="flex gap-1 mb-2">
+    <img src="https://api.iconify.design/logos:express.svg" class="w-10 bg-white px-1 rounded" />
+    <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-5" />
+    <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-5" />
+    <img src="https://api.iconify.design/logos:redis.svg" class="w-5" />
   </div>
-  <div class="flex gap-2 mt-3">
-    <span class="text-xs px-2 py-0.5 bg-gray-100 rounded text-gray-600">Native 殼</span>
-    <span class="text-xs px-2 py-0.5 bg-gray-100 rounded text-gray-600">Native 殼</span>
-    <span class="text-xs px-2 py-0.5 bg-gray-100 rounded text-gray-600">瀏覽器</span>
+  <div class="text-xs text-gray-600">串接全家會員與點數平台 API，紀錄每筆請求/回應<br/>以 RESTful API 提供內部專案串接使用</div>
+</div>
+
+<div class="border border-gray-200 rounded-lg p-4">
+  <div class="font-bold mb-1">簽到活動服務</div>
+  <div class="flex gap-1 mb-2">
+    <img src="https://api.iconify.design/logos:express.svg" class="w-10 bg-white px-1 rounded" />
+    <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-5" />
+    <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-5" />
+    <img src="https://api.iconify.design/logos:redis.svg" class="w-5" />
+    <span class="text-xs text-gray-400 self-center">Cron</span>
   </div>
-  <div class="text-lg mt-2">↓</div>
-  <div class="border-2 border-[#41B883] rounded-lg px-6 py-3 mt-1 text-center">
-    <div class="flex items-center justify-center gap-2">
-      <img :src="`${$base}rex-boss-app.webp`" 
-      class="inline-block w-12 h-12 rounded-xl mb-1 align-middle border border-solid border-white" />
-      <span class="font-bold">RE·X BOSS</span>
-    </div>
-    <div class="flex gap-2 items-center justify-center mt-2">
-      <img src="https://api.iconify.design/logos:vue.svg" class="w-5 h-5" />
-      <img src="https://api.iconify.design/logos:vitejs.svg" class="w-5 h-5" />
-      <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-5 h-5" />
-      <img src="https://api.iconify.design/logos:express.svg" class="w-12 p-1 rounded bg-white" />
-    </div>
+  <div class="text-xs text-gray-600">規劃 API 路由與資料庫結構<br/>排程檢查連續簽到狀態 & 發出提醒推播通知</div>
+</div>
+
+<div class="border border-gray-200 rounded-lg p-4">
+  <div class="font-bold mb-1">藍新金流商家申請服務</div>
+  <div class="flex gap-1 mb-2">
+    <img src="https://api.iconify.design/logos:express.svg" class="w-10 bg-white px-1 rounded" />
+    <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-5" />
+    <span class="text-xs text-gray-400 self-center">ssh2-sftp-client · Cron</span>
   </div>
+  <div class="text-xs text-gray-600">SFTP 補件上傳至藍新指定伺服器<br/>排程定期拉取回覆檔案</div>
 </div>
 
-<div class="text-sm  mt-4 text-center">一份程式碼同時運行於三個平台<br/>透過 JS Bridge 與 Native App 溝通</div>
-
+<div class="border border-gray-200 rounded-lg p-4">
+  <div class="font-bold mb-1">藍新金流交易查詢工具</div>
+  <div class="flex gap-1 mb-2">
+    <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-5" />
+    <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-5" />
+    <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-5" />
+    <span class="text-xs text-gray-400 self-center">Nuxt UI · Drizzle ORM</span>
+  </div>
+  <div class="text-xs text-gray-600">查詢交易資訊、取消授權/退款<br/>核心 API Service 手寫，UI 與操作流程使用 <strong>AI Agent</strong> 生成</div>
 </div>
-
-
-</div>
-
-<!--
-RE·X BOSS 店家管理系統是 Hybrid App 的架構
-讓店家端可以跨 Android、iOS 與 Web 三個平台使用
-我用 D3.js 實作了交易分析、會員分析的資料視覺化功能
-也將專案從 Vue/cli 遷移至 Vite 來提升開發體驗
-另外也用 Sharp 跟 pdfmake 實作了結帳立牌的圖片生成功能
-
-市場開發系統則是供業務使用的店家開發平台
-我設計了表單流程來引導資料填寫，加速店家導入
-串接 Google Maps API 自動補全地址
-並將證件文件上傳到 Google Cloud Storage 同時加上浮水印
--->
-
----
-
-
-# 阿爾伊 — 內部系統
-
-<div class="grid grid-cols-2 gap-6">
-
-<div>
-
-### RE·X 市場開發系統
-<div class="text-xs text-gray-400">Nuxt.js@2 · Koa.js · ElementUI · Stripe</div>
-
-負責前端專案架構設計與開發
-
-- 設計表單流程引導資料填寫，加速店家導入
-- 串接 **Google Maps API** 抓取店家座標與英文地址自動補全
-- 證件、文件檔案上傳 **Google Cloud Storage** 與浮水印處理
-</div>
-
-<div>
-
-### RE·X Admin
-<div class="text-xs text-gray-400">Vue.js@2.7 · Vite · ElementUI · GraphQL · TailwindCSS</div>
-
-負責建構工具遷移與新功能開發
-
-- Nuxt1 → Vue/cli → **Vite** 兩次建構工具遷移
-- 使用 Apollo Client 串接 **GraphQL** API
-- 建立共用組件庫（表單、表格、Modal）
-- 依照需求設計實作 CRUD 表單功能 (前端部分)
-</div>
-
 
 </div>
 
 <!--
-Admin 後台是公司最大的內部系統，依權限控管提供多部門使用
-這個專案經歷了從 Nuxt1 到 Vue/cli 再到 Vite 兩次建構工具的遷移
-也有使用 Apollo Client 串接 GraphQL API 的經驗
-我在這個專案中建立了共用組件庫，包含表單、表格、Modal 等
-讓團隊可以快速應對不同部門的需求
--->
-
----
-
-# 阿爾伊 — 金流串接
-
-<div class="grid grid-cols-2 gap-6">
-<div>
-
-### 店家端支付功能
-<div class="text-xs text-gray-400 mb-2">TapPay SDK· Stripe SDK</div>
-
-#### Web
-- 串接 **TapPay** 支援台灣店家信用卡付款、綁卡自動扣款
-- 封裝 TapPay Direct Pay 為 Vue 組件，提供給不同專案使用
-- 串接 **Stripe** 支援新加坡店家付款、綁卡自動扣款
-
-<div class="h-4"></div>
-
-### 消費者端支付功能
-<div class="text-xs text-gray-400 mb-2">Neweb SDK · Apple Pay JS · Google Pay JS</div>
-
-#### Web
-- 串接藍新金流**平台商架構**實現消費者付款給店家
-- 實作 **Apple Pay / Google Pay on Web**
-- 封裝藍新**嵌入式信用卡支付**為 Vue 組件
-
-</div>
-<div>
-
-### 藍新金流商家開通服務
-<div class="h-2"></div>
-
-#### Web
-- 業務端 - 商家**金流開通**表單、送件流程
-- Admin - 審核結果、重新送件、商家管理等功能
-
-#### Service
-- 負責實作 **SFTP 檔案上傳補件**流程與排程拉取收件回覆檔
-
-<div class="mt-3 flex gap-1">
-  <img src="https://hackmd.io/_uploads/Bkykf6kEWe.png" class="rounded shadow-lg mt-2" style="max-height: 200px; object-fit: contain;" />
-  <img src="https://hackmd.io/_uploads/SkE6t6JN-l.png" class="rounded shadow-lg mt-2" style="max-height: 200px; object-fit: contain;" />
-  <img src="https://hackmd.io/_uploads/SyRvEpeE-g.png" class="rounded shadow-lg mt-2" style="max-height: 200px; object-fit: contain;" />
-</div>
-
-
-</div>
-</div>
-
-<!--
-金流串接是我在阿爾伊的重要工作內容之一
-早期店家端平台有儲值功能，因此串接了 TapPay
-隨著使用地區擴展到新加坡，又串接了 Stripe
-
-2024 年 9 月上線了消費者支付功能，是透過串接藍新金流的平台商架構實現消費者付款給店家
-當時除了 App 外，我們還有 LINE 官方帳號上的交易入口
-因此有了 Apple Pay on Web 與 Google Pay on Web 的實作經驗
-
-2025 年初因應 PCI DSS 安全標準，串接了藍新的嵌入式信用卡支付
-我將這些金流相關的組件封裝為共用組件，並發佈到內部私有 npm 套件
-
-後端部分也有協助開發 Neweb Merchant Service，處理 SFTP 補件與排程拉取回覆檔
-以及 POS Service 的取消交易與帳務功能
-
-另外還有一個有趣的專案是藍新金流內部工具
-核心的藍新 API Service 是我手寫的
-但 UI、API 路由與整體操作流程是由 AI Agent 生成的
--->
-
----
-
-# 阿爾伊 — 第三方點數串接 & 後端服務
-
-<div class="grid grid-cols-2 gap-6">
-<div>
-
-### Fami Service
-<div class="text-xs text-gray-400 mb-2">Express.js · MySQL · Redis</div>
-
-
-
-- 串接全家會員與點數平台 API
-- API 請求/回應電文記錄
-- 以 RESTful API 提供內部專案串接使用
-
-<div class="h-4"></div>  
-
-### HappyGO Portal WebView
-<div class="text-xs text-gray-400 mb-2">Vue.js@3 · Express.js · TailwindCSS</div>
-
-以 Vue3 重構舊的 Flutter Web
-
-- 提供 HappyGO App 內「卡+」與「領紅包」入口
-- 處理 **Hybrid App 與 WebView 溝通**
-- 實作簡訊 OTP 驗證與會員綁定
-
-</div>
-<div>
-
-### Check-In Service
-<div class="text-xs text-gray-400 mb-2">Express.js · Bun · MySQL · Redis · DrizzleORM</div>
-
-簽到活動服務
-- 規劃 API 路由與資料庫結構
-- 排程檢查連續簽到 & 發出提醒推播
-
-<div class="h-4"></div> 
-
-### POS Service
-<div class="text-xs text-gray-400 mb-2">Express.js · Bun · MySQL · Redis · DrizzleORM</div>
-
-協助後端同事開發部分功能
-
-- 實作取消交易功能
-- 排程日帳務紀錄生成、檢查帳務異常
-
-</div>
-</div>
-
-<!--
-我們的核心點數是可以與全家跟 HAPPYGO 的點數互相累積與折抵的
-
-全家的部分，串接全家會員平台與點數交換平台的底層 Service 是由我開發的
-這個 Fami Service 是以 RESTful API 的形式提供給內部其他專案串接使用
-
-HappyGO 的部分，我負責開發提供給 HappyGO App 介接的 WebView
-讓消費者可以在 HappyGO App 內綁定會員關係，並到合作店家進行交易領回饋
-這個 WebView 原本是用 Flutter Web 開發的，因為無法維護，所以由我用 Vue 3 重構
-
-後端服務方面，我擔任主要開發者設計了 Check-In Service 簽到活動服務
-包含規劃 API 路由與資料庫結構，並實作排程檢查連續簽到與發出提醒推播
-也協助後端同事開發 POS Service 的取消交易與帳務相關功能
+除了前端專案，我也負責了幾個後端服務的開發。
+全家的部分，串接全家會員平台與點數交換平台的底層 Service 是由我開發的，以 RESTful API 的形式提供給內部其他專案串接使用。
+簽到活動服務是我擔任主要開發者，規劃 API 路由與資料庫結構，並實作排程檢查連續簽到與發出提醒推播。
+藍新金流商家申請服務負責 SFTP 補件上傳與排程拉取回覆檔。
+另外還有一個有趣的專案是藍新金流交易查詢工具，核心的藍新 API Service 是我手寫的，但 UI 與整體操作流程是使用 AI Agent 生成的。
 -->
 
 
@@ -472,27 +424,31 @@ HappyGO 的部分，我負責開發提供給 HappyGO App 介接的 WebView
 
 # FunNow Group
 
-<div class="text-sm mt-1">核心產品「FunNow App」是即時預訂享樂平台。</div>
+<div class="text-sm text-gray-500 mt-1">核心產品「FunNow App」— 即時預訂享樂平台</div>
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 <div>
 
 ### FunNow Manager Web
-<div class="text-xs text-gray-400 mt-1">Vue.js@2.7 · Vite · TypeScript · Pinia · Vuetify · WindiCSS · VueUse · Jest · Vue-i18n</div>
-負責店家端平台的維護與新功能開發
 
-- 建構工具遷移 **vue/cli → Vite**
-  - 開發啟動速度從 **30-60 秒降至 1-2 秒**
-- 導入 **TypeScript**
-  - 強化程式碼可讀性與可維護性
-- 依團隊共識改寫 **Composition API**、遷移 Vuex 至 Pinia
-- 使用 **JIRA、Figma** 協調設計與開發流程
+<div class="flex gap-2 mt-1 mb-2">
+  <img src="https://api.iconify.design/logos:vue.svg" class="w-6" />
+  <img src="https://api.iconify.design/logos:vitejs.svg" class="w-6" />
+  <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-6" />
+  <img src="https://api.iconify.design/logos:pinia.svg" class="w-6" />
+</div>
+
+<div class="text-xs text-gray-500 mb-3">負責店家端平台的維護與新功能開發</div>
+
+- **vue/cli → Vite** — 啟動速度 **30-60s → 1-2s**
+- 導入 **TypeScript** — 強化可讀性與可維護性
+- 改寫 **Composition API** + Vuex → **Pinia**
+- 與設計師協作重構**日期時間選擇器**組件
 
 </div>
 <div>
 
-
-與設計師協作重構日期時間選擇器組件<br/>
+<div class="text-sm font-bold mt-2 mb-2">日期時間選擇器組件 Demo</div>
 
 <div class="flex gap-1 mt-2">
 <img src="https://hackmd.io/_uploads/HJrtQ2k4We.png" class="rounded shadow-lg" style="max-height: 140px; object-fit: contain;" />
