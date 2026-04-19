@@ -548,17 +548,14 @@ LINE LIFF 應用程式是 RE·X 在 LINE 官方帳號上的入口，由我從零
 layout: two-cols
 ---
 
-# 最後
+<div class="flex flex-col items-center justify-center h-full">
 
-<div class="mt-6">
-
-### 核心優勢
 
 - **9 年以上** Web 開發經驗
-- **專精 Vue.js 生態系**
+- **專精 <span class="font-bold text-[#41B883]">Vue.js</span> 生態系**
 - **後端服務開發經驗** - Node.js / TypeScript
+- **從零到一設計並實作前端專案的經驗**
 - **金流/第三方點數串接經驗**
-- **重視 UX 與品質**
 - **團隊協作** - 積極主動負責，樂於溝通協調
 - **獨立作業能力** - 自主學習，持續成長
 
