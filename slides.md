@@ -69,7 +69,7 @@ onMounted(() => {
 </div>
 
 <div>
-<img src="./profile.jpeg" class="w-48 h-48 mx-auto rounded-2xl" />
+<img src="/profile.jpeg" class="w-48 h-48 mx-auto rounded-2xl" />
 <div class="flex flex-wrap justify-center gap-3 mt-4">
   <img src="https://api.iconify.design/logos:vue.svg" class="w-10" />
   <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-10" />
@@ -111,34 +111,78 @@ onMounted(() => {
   </div>
 </div>
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="grid grid-cols-2 gap-4 mt-3">
 
 <div>
-  <div class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Web 專案</div>
-  <div class="flex flex-col gap-2">
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-28">官方網站</div>
-      <div class="text-xs text-gray-400">Nuxt 2 SSR</div>
+  <div class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Web 專案（主導 / 接手）</div>
+  <div class="flex flex-col gap-1.5">
+    <div class="border border-gray-200 rounded-lg px-2.5 py-1.5">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-[12px]">官方網站</div>
+        <div class="flex items-center gap-1">
+          <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-3.5" />
+          <span class="text-[10px] text-gray-400">Express / vue-i18n</span>
+        </div>
+      </div>
+      <div class="text-[10px] text-gray-500">將靜態網站以 Nuxt2 重構、Core Web Vitals 優化、多語系與 Deep Link。</div>
     </div>
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-28">BOSS 店家管理</div>
-      <div class="text-xs text-gray-400"> Hybrid App · Vue 2.7 · Vite</div>
+    <div class="border border-gray-200 rounded-lg px-2.5 py-1.5">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-[12px]">BOSS 店家管理（Hybrid App）</div>
+        <div class="flex items-center gap-1">
+          <img src="https://api.iconify.design/logos:vue.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:vitejs.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:d3.svg" class="w-3.5" />
+          <span class="text-[10px] text-gray-400">Sharp</span>
+        </div>
+      </div>
+      <div class="text-[10px] text-gray-500">WebView 橋接、Vite 遷移、交易視覺化與廣宣物生成。</div>
     </div>
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-28">官方LINE@LIFF</div>
-      <div class="text-xs text-gray-400">Vue 3 · LIFF SDK</div>
+    <div class="border border-gray-200 rounded-lg px-2.5 py-1.5">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-[12px]">官方LINE@LIFF</div>
+        <div class="flex items-center gap-1">
+          <img src="https://api.iconify.design/logos:vue.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-3.5" />
+          <span class="text-[10px] text-gray-400">LIFF SDK / html5-qrcode</span>
+        </div>
+      </div>
+      <div class="text-[10px] text-gray-500">從零建置會員綁定、掃碼交易與行動支付整合。</div>
     </div>
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-28">市場開發系統</div>
-      <div class="text-xs text-gray-400">Nuxt 2 · ElementUI</div>
+    <div class="border border-gray-200 rounded-lg px-2.5 py-1.5">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-[12px]">市場開發系統</div>
+        <div class="flex items-center gap-1">
+          <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:element.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-4" />
+          <span class="text-[10px] text-gray-400">Zod / Google Maps</span>
+        </div>
+      </div>
+      <div class="text-[10px] text-gray-500">從零到一建置，處理表單驗證、地圖與藍新商家開通流程。</div>
     </div>
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-28">內部管理系統</div>
-      <div class="text-xs text-gray-400">Vue 2.7 · Vite · ElementUI · GraphQL</div>
+    <div class="border border-gray-200 rounded-lg px-2.5 py-1.5">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-[12px]">內部管理系統</div>
+        <div class="flex items-center gap-1">
+          <img src="https://api.iconify.design/logos:vue.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:vitejs.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-4" />
+          <img src="https://api.iconify.design/logos:graphql.svg" class="w-3.5" />
+        </div>
+      </div>
+      <div class="text-[10px] text-gray-500">接手維護並完成 Nuxt1→Vue/cli→Vite 建構遷移。</div>
     </div>
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-28">Vue 共用組件</div>
-      <div class="text-xs text-gray-400">Vue 2 / 3 · 私有 npm</div>
+    <div class="border border-gray-200 rounded-lg px-2.5 py-1.5">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-[12px]">私有 Vue 共用組件</div>
+        <div class="flex items-center gap-1">
+          <img src="https://api.iconify.design/logos:vue.svg" class="w-3.5" />
+          <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-4" />
+        </div>
+      </div>
+      <div class="text-[10px] text-gray-500">封裝表單與金流元件，供多專案複用並降低導入成本。</div>
     </div>
   </div>
 </div>
@@ -146,30 +190,49 @@ onMounted(() => {
 <div>
   <div class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">後端服務 / 內部工具</div>
   <div class="flex flex-col gap-2">
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-32">全家會員與點數服務</div>
-      <div class="text-xs text-gray-400">TypeScript · Express · MySQL · Redis</div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-sm">全家會員與點數服務</div>
+        <div class="flex gap-1">
+          <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-4" />
+          <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-4" />
+          <img src="https://api.iconify.design/logos:redis.svg" class="w-4" />
+          <span class="text-[10px] text-gray-400">Express</span>
+        </div>
+      </div>
+      <div class="text-[11px] text-gray-500 mt-1">串接全家平台 API，紀錄請求/回應，提供內部 RESTful API 服務。</div>
     </div>
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-32">簽到活動服務</div>
-      <div class="text-xs text-gray-400">TypeScript · Express · MySQL · Redis · Cron</div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-sm">簽到活動服務 / 藍新商家申請</div>
+        <div class="flex gap-1 items-center">
+          <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-4" />
+          <span class="text-[10px] text-gray-400">Express / Cron / SFTP</span>
+        </div>
+      </div>
+      <div class="text-[11px] text-gray-500 mt-1">規劃簽到資料結構與排程推播；開發藍新補件上傳與回覆檔案定期拉取流程。</div>
     </div>
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-32">藍新商家申請服務</div>
-      <div class="text-xs text-gray-400">TypeScript · Express · MySQL · SFTP · Cron</div>
-    </div>
-    <div class="border border-gray-200 rounded-lg px-3 py-2 flex items-center gap-3">
-      <div class="font-bold text-sm w-32">藍新交易查詢工具</div>
-      <div class="text-xs text-gray-400">Nuxt4 · NuxtUI</div>
+    <div class="border border-gray-200 rounded-lg px-3 py-2">
+      <div class="flex items-center justify-between">
+        <div class="font-bold text-sm">藍新交易查詢工具</div>
+        <div class="flex gap-1 items-center">
+          <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-4" />
+          <img src="https://api.iconify.design/logos:typescript-icon.svg" class="w-4" />
+          <img src="https://api.iconify.design/logos:mysql-icon.svg" class="w-4" />
+          <span class="text-[10px] text-gray-400">Nuxt UI / Drizzle ORM</span>
+        </div>
+      </div>
+      <div class="text-[11px] text-gray-500 mt-1">提供同事快速查詢交易狀態，並支援取消授權/退款等操作。</div>
     </div>
   </div>
 </div>
 
 </div>
 
-<div class="flex items-center gap-6 mt-3 text-sm justify-center">
-  <span>金流串接：TapPay / Stripe / 藍新</span>
-  <span>第三方點數串接：全家 / HAPPYGO</span>
+<div class="flex items-center gap-4 mt-3 text-xs justify-center">
+  <span>金流：TapPay / Stripe / 藍新</span>
+  <span>第三方點數：全家 / HAPPYGO</span>
+  <span>跨平台：Web / iOS / Android（WebView + JS Bridge）</span>
 </div>
 
 <!--

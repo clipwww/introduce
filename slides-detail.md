@@ -180,7 +180,7 @@ onMounted(() => {
 
 ---
 
-# RE·X 官方網站
+# 官方網站
 
 <div class="flex gap-2 mt-1 mb-2">
   <img src="https://api.iconify.design/logos:nuxt-icon.svg" class="w-7" />
