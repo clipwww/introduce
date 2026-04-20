@@ -35,7 +35,6 @@ onMounted(() => {
 
 <!--
 各位好，我是簡爾廷，英文名字是 David。
-這份是詳細版自我介紹，我會用幾個代表專案說明我的經驗與能貢獻的價值。
 -->
 
 ---
@@ -44,7 +43,7 @@ onMounted(() => {
 
 <div class="flex items-center gap-12">
 <div class="whitespace-nowrap">
-<div class="text-xs text-gray-500 mt-2">
+<div class="text-xs text-gray-400 mt-2">
 東海大學資訊管理研究所 (2013-2015)<br>
 東海大學資訊工程學系 (2009-2013)
 </div>
@@ -93,9 +92,12 @@ onMounted(() => {
 
 
 <!--
-我有 9 年以上 Web 開發經驗，主軸是 Vue.js 生態系，也能支援 Node.js 與 TypeScript 後端服務。
-職涯中做過從零到一的平台建置，也做過長期維運與重構。
-我特別熟悉金流與第三方點數整合，能在產品時程與品質之間取得平衡。
+先簡單介紹一下自己
+我是一個有 9 年以上 Web 開發經驗的前端工程師，專精於 Vue.js 生態系
+同時也有 Node.js / TypeScript 的後端服務開發經驗
+我熟悉從零到一建置管理系統、會員平台等服務型網站，也有金流與第三方點數平台串接經驗
+開發時我重視使用者體驗與程式碼品質，但也保有彈性，不會固執己見
+我積極有責任感，樂於主動協助團隊成員，能夠獨立作業、解決問題，並持續自主學習
 -->
 
 
@@ -173,9 +175,9 @@ onMounted(() => {
 </div>
 
 <!--
-這是我待最久的一段經歷，在阿爾伊接近 8 年。
-核心產品是 RE·X 點數魔術師，場景涵蓋交易、點數累積折抵與跨平台整合。
-我在這裡從前端工程師一路做到資深前端工程師，參與前後台與後端服務的完整開發。
+接著是我最主要的工作經歷 阿爾伊 我在這裡待了將近 8 年
+參與了多個前端專案的開發，從 Vue 2 到 Vue 3 以及 Nuxt，也有一些後端服務的開發經驗
+接著會挑幾個代表專案來說明
 -->
 
 ---
@@ -190,25 +192,27 @@ onMounted(() => {
   <img src="https://api.iconify.design/logos:express.svg" class="w-14 bg-white px-1 rounded" />
 </div>
 
-<div class="text-sm text-gray-500 mb-3">官方形象網站，提供平台介紹、合作店家列表、App 下載及聯絡客服等資訊，並支援多地區與多語系。<br/>行銷活動以及 App 內的 WebView 頁面也由此專案提供。</div>
+<div class="text-sm text-gray-400 mb-3">官方形象網站，提供平台介紹、合作店家列表、App 下載及聯絡客服等資訊，並支援多地區與多語系。<br/>行銷活動以及 App 內的 WebView 頁面也由此專案提供。</div>
 
 擔任主要開發者，負責專案的架構設計與開發<br/>
 將第一版靜態 Html 的官網重構為 Nuxt 2 架構
 
 - 提升 **Core Web Vitals**（LCP / FID / CLS）至良好等級
   - Lazy Loading、Nuxt Image 延遲圖片載入與圖片壓縮
-  - LRU Cache 緩存靜態資料
-  - Lazy Hydration 延遲非必要互動水合
+  - LRU Cache 快取靜態資料
+  - Lazy Hydration 延遲非必要的互動水合
   - 設計 Skeleton Loading 減少畫面偏移提升使用者體驗
-- **多地區多語系** — 設計並實作 vue-i18n 架構，支援台灣 / 新加坡地區與繁中 / 簡中 / 英文語系
+- **多語系** — 設計並實作 vue-i18n 架構，支援繁中 / 簡中 / 英文語系
 - **SEO** — 動態 Sitemap、Meta Tags、社群分享 OG Tags
 - **Express 自訂路由** — 行銷短網址、App Deep Link 處理
 
 <!--
-RE·X 官方網站是公司對外的主要入口，我擔任主要開發者。
-為了 SEO 與首屏體驗，我把第一版靜態網站重構成 Nuxt 2 SSR。
-並導入快取、延遲載入與延遲水合，讓 Core Web Vitals 穩定在良好區間。
-另外也負責多地區多語系、行銷短網址與 App Deep Link 的路由設計。
+首先是官方網站，我擔任主要開發者，將原本的靜態 Html 官網重構為 Nuxt 2 SSR 架構。
+為了更好的 SEO 與開發體驗。
+做了一系列優化來提升 Core Web Vitals 的分數至良好等級
+同時也實作了多語系架構，支援繁中、簡中與英文。
+針對店家資訊的部分去實作動態 Sitemap、Meta Tags 與 OG Tags 來提升搜尋結果與分享內容。
+另外也實作了 Express 的自訂路由來處理行銷短網址與 App Deep Link。
 -->
 
 ---
@@ -225,15 +229,16 @@ layout: two-cols
   <img src="https://api.iconify.design/logos:tailwindcss-icon.svg" class="w-7" />
 </div>
 
-<div class="text-sm text-gray-500 mb-3">店家端後台管理系統，Hybrid App 形式同時支援 iOS、Android 與網頁，提供店家訂單查詢、交易分析、請款等功能。</div>
+<div class="text-sm text-gray-400 mb-3">店家端後台管理系統，Hybrid App 形式同時支援 iOS、Android 與網頁，提供店家訂單查詢、交易分析、請款等功能。</div>
 
 - **Hybrid App** — 處理 Web 與 Native App 溝通
-- **Vue/cli → Vite** — 大幅提升開發啟動速度
-- 與同事協作用 **D3.js** 實作交易資料視覺化（訂單分析、會員分析）
+- 與同事協作用 **D3.js** 實作交易資料視覺化
 - 規劃設計與實作廣宣物下載功能
   - 內部管理系統 CRUD 表單，提供同事管理廣宣物資料
   - 店家端使用 `Sharp` 帶入推薦碼與文案生成結帳立牌與行銷廣宣物
 - 串接 TapPay, Stripe 實作台灣/新加坡店家加值功能
+  <div class="text-xs text-gray-400">嵌入式信用卡支付，符合 PCI DSS 安全標準，只會取得 Token，不會接觸到卡片敏感資訊</div>
+- **Vue/cli → Vite** — 大幅提升開發啟動速度
 
 ::right::
 
@@ -263,10 +268,12 @@ graph TD
 </div>
 
 <!--
-這個專案是一份程式碼同時支援 iOS、Android 與 Web 的 Hybrid App。
-我負責 Web 與 Native 之間的橋接整合，也主導 Vue/cli 遷移到 Vite。
-功能面包含 D3 交易視覺化、廣宣物產生，以及 TapPay、Stripe 的金流整合。
-其中 TapPay 也被我封裝成共用組件，供其他專案重用。
+這個是店家端的管理系統，採用 Hybrid App 的形式同時支援 iOS、Android 與網頁。
+我負責部分功能的開發
+與同事協作用 D3.js 實作交易資料視覺化，這塊主要是同事負責，因時程緊迫我協助調整與修Issue。
+我主要負責廣宣物下載功能，根據需求規劃欄位，向後端同事提出 API 需求，
+在內部管理系統實作管理資料的 CRUD 表單，店家端則是使用圖像處理的第三方套件 Sharp 生成結帳立牌與行銷廣宣物。
+同時我也負責串接 TapPay 與 Stripe 實作台灣與新加坡店家的加值功能。
 -->
 
 ---
@@ -285,7 +292,7 @@ layout: two-cols
   <img src="https://api.iconify.design/logos:google-maps.svg" class="w-4" />
 </div>
 
-<div class="text-xs text-gray-500 mb-2">市場開發業務系統，提供市場部業務與在地合作夥伴進行店家開發功能，支援線上填寫表單、上傳檔案以及線上付款，能夠快速導入店家資料與開通藍新金流收款。</div>
+<div class="text-xs text-gray-400 mb-2">市場開發業務系統，提供市場部業務與在地合作夥伴進行店家開發功能，支援線上填寫表單、上傳檔案以及線上付款，能夠快速導入店家資料與開通藍新金流收款。</div>
 
 擔任主要開發者，負責專案從零到一的架構設計與開發
 
@@ -309,7 +316,7 @@ layout: two-cols
   <img src="https://api.iconify.design/logos:graphql.svg" class="w-6" />
 </div>
 
-<div class="text-xs text-gray-500 mb-2">依權限控管提供各部門使用的內部管理系統</div>
+<div class="text-xs text-gray-400 mb-2">依權限控管提供各部門使用的內部管理系統</div>
 
 接手為主要維護、開發者
 
@@ -321,8 +328,11 @@ layout: two-cols
 </div>
 
 <!--
-左邊的市場開發系統是我從零到一建置的專案。
-重點在複雜表單、地圖地址補全、文件安全上傳與藍新商家開通流程串接。
+再來是內部系統
+市場開發系統提供業務去簽店家，線上表單填寫將店家資料直接匯入系統，取代紙本作業。
+這是我從零到一建置的專案。
+因為會有很多表單要設計，因此採用 ElementUI 的 UI 組件庫來快速搭建，並使用 Zod 來實作欄位之間連動的邏輯以及驗證。
+並使用像是 Google Maps API 來實作地址自動補全與座標抓取的功能，讓表單填寫更加便利。
 
 右邊是多部門共用的 Admin 系統，我是主要維護與開發者。
 這個專案做過兩次建構遷移，也同步整理共用組件與 GraphQL 串接流程。
@@ -339,16 +349,18 @@ layout: two-cols
   <img src="https://api.iconify.design/logos:express.svg" class="w-14 bg-white px-1 rounded" />
 </div>
 
-<div class="text-sm text-gray-500 mb-3">LINE Front-end Framework（LIFF）應用，提供會員可透過官方 LINE@ 的圖文選單開啟應用<br/>進行帳號綁定、查看點數、掃碼交易與行動支付。由我從零到一設計與開發</div>
+<div class="text-sm text-gray-400 mb-3">LINE Front-end Framework（LIFF）應用，提供會員可透過官方 LINE@ 的圖文選單開啟應用<br/>進行帳號綁定、查看點數、掃碼交易與行動支付。</div>
 
 <div class="grid grid-cols-2 gap-8">
 <div>
+
+擔任主要開發者，負責專案的架構設計與開發
 
 - **LINE LIFF SDK** 實作會員LINE帳號綁定
 - **html5-qrcode** 實作相機掃碼交易
   <div class="text-xs text-gray-400">應對當時 LIFF SDK 部分裝置不支援掃碼</div>
 - 串接金流藍新**嵌入式信用卡支付** 
-  - 符合 PCI DSS 安全標準，只會取得 Token 不會接觸到卡片敏感資訊
+  <div class="text-xs text-gray-400">嵌入式信用卡付款，符合 PCI DSS 安全標準，只會取得 Token，不會接觸到卡片敏感資訊</div>
 - 實作 **Apple Pay on Web** 與 **Google Pay on Web**
 
 
@@ -366,17 +378,22 @@ layout: two-cols
 </div>
 
 <!--
-這個 LIFF 應用是 RE·X 在 LINE 生態中的核心交易入口，由我從零到一設計與開發。
-我負責會員綁定、掃碼交易、與藍新支付流程的整合。
-在支付場景上，陸續落地 Apple Pay on Web、Google Pay on Web 與嵌入式信用卡支付。
-同時把可重用的金流邏輯封裝成共用組件，降低後續專案接入成本。
+LIFF 是 LINE 提供的前端應用框架，能夠讓我們在 LINE 內開啟類似 WebView 的應用程式。
+最主要特點是可以透過 LIFF SDK 取得使用者的 LINE 帳號 Token 以及簡單的會員資訊，並支援一些 LINE 原生功能。
+這個專案提供我們的會員透過 LINE@ 的圖文選單開啟 LIFF 應用，進行帳號綁定、查看點數、掃碼交易與行動支付。
+我在這個專案中擔任主要開發者，負責專案的架構設計與開發。
+除了 LIFF SDK 的會員綁定功能之外，當時 LIFF SDK 在部分 iOS 裝置不支援掃碼功能，
+並且也有預想這專案脫離 LINE 環境獨立運行的可能性，
+因此我使用了第三方的 html5-qrcode 套件來實作相機掃碼交易的功能。
+在金流方面，消費者付款給店家是採用了藍新金流，
+使用了藍新的嵌入式信用卡支付方案，這樣的方案符合 PCI DSS 安全標準，只會取得 Token 不會接觸到卡片敏感資訊，並且也實作了 Apple Pay on Web 與 Google Pay on Web 的功能。
 -->
 
 ---
 
 # 後端服務與內部工具
 
-<div class="text-sm text-gray-500 mb-3">除了前端專案，也負責以下後端服務的開發</div>
+<div class="text-sm text-gray-400 mb-3">除了前端專案，也負責以下後端服務的開發</div>
 
 <div class="grid grid-cols-2 gap-4">
 
@@ -427,10 +444,12 @@ layout: two-cols
 </div>
 
 <!--
-除了前端，我也實際負責多個後端服務。
-像是全家會員與點數串接、簽到活動排程、藍新商家申請 SFTP 流程，都是我主導開發。
-另外藍新交易查詢工具則是核心 API 由我手寫，前台流程用 AI Agent 快速生成。
-這段經驗讓我在前後端協作時更能快速定位與解決問題。
+除了前端，我也實際負責幾個後端服務的開發。
+全家會員與點數服務與簽到活動服務都是由我獨自開發，資料庫結構的規劃還是有與後端同事討論過。
+藍新金流商家申請服務，我負責其中 SFTP 補件上傳的功能
+藍新金流服務平台因應洗錢防制法規要求，需徵提平台商所屬之合作商店負責人之身分資訊等相關證明文件
+那就是透過藍新提供的 SFTP 伺服器來進行檔案的上傳與下載，並且排程定期拉取回覆檔案
+解析回覆檔案的內容來更新補件狀態給操作內部系統的同事知道。
 -->
 
 
@@ -438,7 +457,7 @@ layout: two-cols
 
 # FunNow Group
 
-<div class="text-sm text-gray-500 mt-1">核心產品「FunNow App」— 即時預訂享樂平台</div>
+<div class="text-sm text-gray-400 mt-1">核心產品「FunNow App」— 即時預訂享樂平台</div>
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 <div>
@@ -452,7 +471,7 @@ layout: two-cols
   <img src="https://api.iconify.design/logos:pinia.svg" class="w-6" />
 </div>
 
-<div class="text-xs text-gray-500 mb-3">負責店家端平台的維護與新功能開發</div>
+<div class="text-xs text-gray-400 mb-3">負責店家端平台的維護與新功能開發</div>
 
 - **vue/cli → Vite** — 啟動速度 **30-60s → 1-2s**
 - 導入 **TypeScript** — 強化可讀性與可維護性
@@ -563,7 +582,7 @@ layout: two-cols
 
 <h2 class="text-2xl font-bold">感謝聆聽</h2>
 
-<div class="mt-6 text-gray-500 text-center">
+<div class="mt-6 text-gray-400 text-center">
 📍 新北市, 台灣<br>
 ✉️ clipwww@gmail.com
 </div>
