@@ -269,7 +269,7 @@ onMounted(() => {
 </div>
 <div>
 
-<div class="text-sm font-bold mt-2 mb-2">日期時間選擇器組件 Demo</div>
+<div class="text-sm font-bold mt-2 mb-2">日期時間選擇器組件</div>
 
 <div class="flex gap-1 mt-2">
 <img src="https://hackmd.io/_uploads/HJrtQ2k4We.png" class="rounded shadow-lg" style="max-height: 140px; object-fit: contain;" />
