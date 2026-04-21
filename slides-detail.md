@@ -300,6 +300,7 @@ layout: two-cols
 - Zod 實作欄位之間連動的邏輯以及驗證
 - **Google Maps API** 座標抓取與英文地址自動補全
 - 證件**浮水印**處理 + **GCS** 加密上傳，確保資料安全
+- **pdfmake** 根據表單資料生成 PDF 文件，提供留存與列印
 - 串接藍新金流**商家開通**流程
 
 </div>
@@ -323,7 +324,7 @@ layout: two-cols
 - **Nuxt1 → Vue/cli → Vite** 兩次建構程式遷移，大幅提升啟動與熱重載速度
 - Apollo Client 串接 **GraphQL** API
 - 依需求設計實作 **CRUD** 表單功能
-- 建立共用組件庫（表單、表格、Modal），快速應對需求
+- 建立共用組件庫（表單、Select、Modal 等），快速應對需求
 
 </div>
 
